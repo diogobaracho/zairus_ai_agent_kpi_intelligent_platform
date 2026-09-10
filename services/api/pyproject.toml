@@ -1,0 +1,25 @@
+[project]
+name = "kpi-api"
+version = "0.1.0"
+description = "KPI Intelligent Platform - FastAPI REST API and chat agent"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "kpi-core",
+    "kpi-mcp",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "sse-starlette>=2.1",
+    "anthropic>=1.8,<2",
+    "fastmcp>=4.0,<5",
+    "httpx>=0.28",
+]
+
+[project.scripts]
+kpi-api = "kpi_api.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kpi_api"]

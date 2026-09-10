@@ -1,0 +1,105 @@
+# KPI Intelligent Platform — uv workspace root (not a deployable package).
+# Holds the single source of truth for lint, type-check, test and coverage configuration.
+
+[project]
+name = "kpi-platform-workspace"
+version = "0.1.0"
+description = "KPI Intelligent Platform monorepo - workspace root"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["packages/kpi_core", "services/api", "services/mcp"]
+
+[tool.uv.sources]
+kpi-core = { workspace = true }
+kpi-mcp = { workspace = true }
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "pytest-cov>=6.0",
+    "ruff>=0.8",
+    "mypy>=1.13",
+    "testcontainers[postgres]>=4.9",
+    "httpx>=0.28",
+    "types-python-dateutil",
+]
+
+# ---------------------------------------------------------------------------
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["node_modules", ".venv", "apps", "tests/e2e/node_modules"]
+
+[tool.ruff.format]
+exclude = ["docs/**/*.md", "specs/**/*.md", "ai/**/*.md"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "ASYNC", "S", "RUF"]
+ignore = ["S101"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/tests/**" = ["S105", "S106", "S108", "S603", "S607"]
+"scripts/**" = ["S603", "S607"]
+"conftest.py" = ["S603", "S607"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["kpi_core", "kpi_api", "kpi_mcp"]
+
+# ---------------------------------------------------------------------------
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unreachable = true
+plugins = ["pydantic.mypy"]
+explicit_package_bases = true
+mypy_path = ["packages/kpi_core/src", "services/api/src", "services/mcp/src"]
+exclude = [
+    "\\.venv/",
+    "node_modules/",
+    "^packages/[^/]+/tests/",
+    "^services/[^/]+/tests/",
+    "^apps/",
+    "^tests/e2e/",
+    "migrations/versions/",
+]
+
+[[tool.mypy.overrides]]
+module = ["tests.*", "*.tests.*", "conftest"]
+disallow_untyped_defs = false
+
+[[tool.mypy.overrides]]
+module = ["rapidfuzz.*", "testcontainers.*", "pythonjsonlogger.*", "sse_starlette.*", "opentelemetry.*"]
+ignore_missing_imports = true
+
+# ---------------------------------------------------------------------------
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["packages", "services", "tests"]
+addopts = "-q --strict-markers --strict-config --import-mode=importlib"
+markers = [
+    "integration: needs a real Postgres (testcontainers or KPI_TEST_DATABASE_URL); excluded from the fast run",
+    "e2e: needs the full compose stack running",
+    "live: needs a real LLM API key; NEVER run in CI",
+]
+filterwarnings = ["error::DeprecationWarning"]
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.coverage.run]
+branch = true
+source = ["kpi_core", "kpi_api", "kpi_mcp"]
+omit = [
+    "*/tests/*",
+    "*/migrations/*",
+    "*/agent/providers/anthropic_provider.py",
+    "*/obs/telemetry.py",
+    "*/cli.py",
+    "*/__main__.py",
+]
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
+skip_covered = false

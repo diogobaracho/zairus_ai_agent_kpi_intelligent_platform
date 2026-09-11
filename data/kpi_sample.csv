@@ -1,0 +1,1063 @@
+company_name,ticker,sector,kpi,period_start,period_end,period,estimate_type,value,unit,as_of
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,222.97,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,231.63,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,244.21,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,258.98,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,269.79,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,277.84,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,291.01,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,302.75,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,317.11,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,333.22,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,345.78,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,354.43,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,369.15,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,387.23,$MM,
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,132.12,$MM,2026-07-31
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,203.27,$MM,2026-08-15
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,272.12,$MM,2026-08-31
+Orbitly Analytics,ORBY,Software,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,335.94,$MM,2026-09-15
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,835.55,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,876.83,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,901.04,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,954.61,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,989.91,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,1027.85,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,1071.03,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,1107.85,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,1144.24,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,1197.47,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,1251.10,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,1291.27,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,1365.46,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,1424.19,$MM,
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1543.99,$MM,2026-07-31
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1556.10,$MM,2026-08-15
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1530.18,$MM,2026-08-31
+Orbitly Analytics,ORBY,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1539.27,$MM,2026-09-15
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2023-01-01,2023-03-31,2023Q1,historical,118.6,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2023-04-01,2023-06-30,2023Q2,historical,118.4,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2023-07-01,2023-09-30,2023Q3,historical,118.0,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2023-10-01,2023-12-31,2023Q4,historical,117.3,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2024-01-01,2024-03-31,2024Q1,historical,118.2,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2024-04-01,2024-06-30,2024Q2,historical,117.4,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2024-07-01,2024-09-30,2024Q3,historical,117.7,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2024-10-01,2024-12-31,2024Q4,historical,116.9,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2025-01-01,2025-03-31,2025Q1,historical,118.0,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2025-04-01,2025-06-30,2025Q2,historical,118.2,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2025-07-01,2025-09-30,2025Q3,historical,118.4,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2025-10-01,2025-12-31,2025Q4,historical,117.4,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2026-01-01,2026-03-31,2026Q1,historical,116.6,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2026-04-01,2026-06-30,2026Q2,historical,116.5,%,
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2026-07-01,2026-09-30,2026Q3,qtd,119.5,%,2026-07-31
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2026-07-01,2026-09-30,2026Q3,qtd,116.8,%,2026-08-15
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2026-07-01,2026-09-30,2026Q3,qtd,118.3,%,2026-08-31
+Orbitly Analytics,ORBY,Software,Net Revenue Retention (%),2026-07-01,2026-09-30,2026Q3,qtd,116.5,%,2026-09-15
+Orbitly Analytics,ORBY,Software,Paying Customers,2023-01-01,2023-03-31,2023Q1,historical,4318,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2023-04-01,2023-06-30,2023Q2,historical,4600,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2023-07-01,2023-09-30,2023Q3,historical,4689,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2023-10-01,2023-12-31,2023Q4,historical,4881,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2024-01-01,2024-03-31,2024Q1,historical,5138,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2024-04-01,2024-06-30,2024Q2,historical,5435,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2024-07-01,2024-09-30,2024Q3,historical,5760,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2024-10-01,2024-12-31,2024Q4,historical,6001,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2025-01-01,2025-03-31,2025Q1,historical,6216,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2025-04-01,2025-06-30,2025Q2,historical,6550,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2025-07-01,2025-09-30,2025Q3,historical,6859,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2025-10-01,2025-12-31,2025Q4,historical,7109,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2026-01-01,2026-03-31,2026Q1,historical,7533,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2026-04-01,2026-06-30,2026Q2,historical,7712,customers,
+Orbitly Analytics,ORBY,Software,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,7793,customers,2026-07-31
+Orbitly Analytics,ORBY,Software,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,8049,customers,2026-08-15
+Orbitly Analytics,ORBY,Software,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,8039,customers,2026-08-31
+Orbitly Analytics,ORBY,Software,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,8004,customers,2026-09-15
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2023-01-01,2023-03-31,2023Q1,historical,1.99,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2023-04-01,2023-06-30,2023Q2,historical,2.03,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2023-07-01,2023-09-30,2023Q3,historical,1.83,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2023-10-01,2023-12-31,2023Q4,historical,1.81,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2024-01-01,2024-03-31,2024Q1,historical,1.64,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2024-04-01,2024-06-30,2024Q2,historical,1.61,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2024-07-01,2024-09-30,2024Q3,historical,1.69,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2024-10-01,2024-12-31,2024Q4,historical,1.70,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2025-01-01,2025-03-31,2025Q1,historical,1.69,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2025-04-01,2025-06-30,2025Q2,historical,1.61,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2025-07-01,2025-09-30,2025Q3,historical,1.64,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2025-10-01,2025-12-31,2025Q4,historical,1.82,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2026-01-01,2026-03-31,2026Q1,historical,1.78,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2026-04-01,2026-06-30,2026Q2,historical,1.78,%,
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,1.82,%,2026-07-31
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,1.77,%,2026-08-15
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,1.81,%,2026-08-31
+Orbitly Analytics,ORBY,Software,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,1.79,%,2026-09-15
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,144.13,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,147.03,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,148.88,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,151.13,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,157.46,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,161.61,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,167.62,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,173.27,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,178.90,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,183.81,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,190.12,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,194.95,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,205.22,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,212.95,$MM,
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,73.60,$MM,2026-07-31
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,110.42,$MM,2026-08-15
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,149.20,$MM,2026-08-31
+Cobalt Workspace,CBLT,Software,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,184.37,$MM,2026-09-15
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,528.44,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,554.51,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,580.65,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,583.47,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,614.94,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,641.86,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,665.38,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,680.70,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,706.51,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,728.22,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,751.97,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,775.61,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,802.16,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,845.71,$MM,
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,862.42,$MM,2026-07-31
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,879.09,$MM,2026-08-15
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,867.88,$MM,2026-08-31
+Cobalt Workspace,CBLT,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,879.24,$MM,2026-09-15
+Cobalt Workspace,CBLT,Software,Paying Customers,2023-01-01,2023-03-31,2023Q1,historical,12811,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2023-04-01,2023-06-30,2023Q2,historical,13086,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2023-07-01,2023-09-30,2023Q3,historical,13592,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2023-10-01,2023-12-31,2023Q4,historical,13839,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2024-01-01,2024-03-31,2024Q1,historical,13978,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2024-04-01,2024-06-30,2024Q2,historical,14350,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2024-07-01,2024-09-30,2024Q3,historical,14705,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2024-10-01,2024-12-31,2024Q4,historical,15464,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2025-01-01,2025-03-31,2025Q1,historical,16314,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2025-04-01,2025-06-30,2025Q2,historical,17012,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2025-07-01,2025-09-30,2025Q3,historical,17538,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2025-10-01,2025-12-31,2025Q4,historical,18421,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2026-01-01,2026-03-31,2026Q1,historical,18785,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2026-04-01,2026-06-30,2026Q2,historical,19743,customers,
+Cobalt Workspace,CBLT,Software,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,20151,customers,2026-07-31
+Cobalt Workspace,CBLT,Software,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,20435,customers,2026-08-15
+Cobalt Workspace,CBLT,Software,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,20567,customers,2026-08-31
+Cobalt Workspace,CBLT,Software,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,20362,customers,2026-09-15
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2023-01-01,2023-03-31,2023Q1,historical,2.63,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2023-04-01,2023-06-30,2023Q2,historical,2.66,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2023-07-01,2023-09-30,2023Q3,historical,2.54,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2023-10-01,2023-12-31,2023Q4,historical,2.57,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2024-01-01,2024-03-31,2024Q1,historical,2.48,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2024-04-01,2024-06-30,2024Q2,historical,2.54,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2024-07-01,2024-09-30,2024Q3,historical,2.53,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2024-10-01,2024-12-31,2024Q4,historical,2.51,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2025-01-01,2025-03-31,2025Q1,historical,2.50,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2025-04-01,2025-06-30,2025Q2,historical,2.57,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2025-07-01,2025-09-30,2025Q3,historical,2.51,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2025-10-01,2025-12-31,2025Q4,historical,2.42,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2026-01-01,2026-03-31,2026Q1,historical,2.38,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2026-04-01,2026-06-30,2026Q2,historical,2.47,%,
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,2.41,%,2026-07-31
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,2.49,%,2026-08-15
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,2.45,%,2026-08-31
+Cobalt Workspace,CBLT,Software,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,2.45,%,2026-09-15
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,99.63,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,103.97,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,106.84,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,118.63,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,108.78,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,110.94,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,112.16,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,126.48,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,116.36,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,118.84,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,123.97,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,137.40,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,127.79,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,130.73,$MM,
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,42.22,$MM,2026-07-31
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,66.66,$MM,2026-08-15
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,87.33,$MM,2026-08-31
+Quillmark Media,QMRK,Digital Media,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,108.19,$MM,2026-09-15
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2023-01-01,2023-03-31,2023Q1,historical,41372730,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2023-04-01,2023-06-30,2023Q2,historical,42268833,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2023-07-01,2023-09-30,2023Q3,historical,43837892,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2023-10-01,2023-12-31,2023Q4,historical,44098795,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2024-01-01,2024-03-31,2024Q1,historical,44687401,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2024-04-01,2024-06-30,2024Q2,historical,45868963,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2024-07-01,2024-09-30,2024Q3,historical,46476689,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2024-10-01,2024-12-31,2024Q4,historical,48206016,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2025-01-01,2025-03-31,2025Q1,historical,48206824,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2025-04-01,2025-06-30,2025Q2,historical,48875795,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2025-07-01,2025-09-30,2025Q3,historical,49467237,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2025-10-01,2025-12-31,2025Q4,historical,50346727,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2026-01-01,2026-03-31,2026Q1,historical,51084522,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2026-04-01,2026-06-30,2026Q2,historical,51548128,users,
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,52708768,users,2026-07-31
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,53121064,users,2026-08-15
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,52569123,users,2026-08-31
+Quillmark Media,QMRK,Digital Media,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,52844203,users,2026-09-15
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2023-01-01,2023-03-31,2023Q1,historical,2.39,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2023-04-01,2023-06-30,2023Q2,historical,2.45,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2023-07-01,2023-09-30,2023Q3,historical,2.52,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2023-10-01,2023-12-31,2023Q4,historical,2.60,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2024-01-01,2024-03-31,2024Q1,historical,2.62,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2024-04-01,2024-06-30,2024Q2,historical,2.68,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2024-07-01,2024-09-30,2024Q3,historical,2.71,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2024-10-01,2024-12-31,2024Q4,historical,2.78,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2025-01-01,2025-03-31,2025Q1,historical,2.82,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2025-04-01,2025-06-30,2025Q2,historical,2.82,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2025-07-01,2025-09-30,2025Q3,historical,2.96,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2025-10-01,2025-12-31,2025Q4,historical,2.99,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2026-01-01,2026-03-31,2026Q1,historical,3.08,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2026-04-01,2026-06-30,2026Q2,historical,3.12,$,
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,3.18,$,2026-07-31
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,3.24,$,2026-08-15
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,3.18,$,2026-08-31
+Quillmark Media,QMRK,Digital Media,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,3.20,$,2026-09-15
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,180.61,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,192.09,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,201.96,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,211.62,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,220.76,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,233.29,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,249.44,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,261.76,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,278.43,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,292.07,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,309.26,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,328.67,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,350.49,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,362.59,$MM,
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,124.66,$MM,2026-07-31
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,195.28,$MM,2026-08-15
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,255.95,$MM,2026-08-31
+Kestrel Security,KSTL,Cybersecurity,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,317.23,$MM,2026-09-15
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,694.18,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,727.00,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,774.40,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,806.08,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,838.60,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,878.73,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,913.69,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,962.26,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,1004.17,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,1054.17,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,1098.26,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,1160.25,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,1223.89,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,1272.91,$MM,
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1366.00,$MM,2026-07-31
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1360.93,$MM,2026-08-15
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1324.23,$MM,2026-08-31
+Kestrel Security,KSTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1353.03,$MM,2026-09-15
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2023-01-01,2023-03-31,2023Q1,historical,125.0,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2023-04-01,2023-06-30,2023Q2,historical,125.5,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2023-07-01,2023-09-30,2023Q3,historical,124.5,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2023-10-01,2023-12-31,2023Q4,historical,124.7,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2024-01-01,2024-03-31,2024Q1,historical,125.1,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2024-04-01,2024-06-30,2024Q2,historical,125.1,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2024-07-01,2024-09-30,2024Q3,historical,124.3,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2024-10-01,2024-12-31,2024Q4,historical,123.6,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2025-01-01,2025-03-31,2025Q1,historical,123.4,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2025-04-01,2025-06-30,2025Q2,historical,123.1,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2025-07-01,2025-09-30,2025Q3,historical,123.5,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2025-10-01,2025-12-31,2025Q4,historical,123.2,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2026-01-01,2026-03-31,2026Q1,historical,122.9,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2026-04-01,2026-06-30,2026Q2,historical,123.4,%,
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2026-07-01,2026-09-30,2026Q3,qtd,127.5,%,2026-07-31
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2026-07-01,2026-09-30,2026Q3,qtd,123.7,%,2026-08-15
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2026-07-01,2026-09-30,2026Q3,qtd,124.1,%,2026-08-31
+Kestrel Security,KSTL,Cybersecurity,Net Revenue Retention (%),2026-07-01,2026-09-30,2026Q3,qtd,124.3,%,2026-09-15
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2023-01-01,2023-03-31,2023Q1,historical,3046,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2023-04-01,2023-06-30,2023Q2,historical,3227,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2023-07-01,2023-09-30,2023Q3,historical,3437,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2023-10-01,2023-12-31,2023Q4,historical,3621,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2024-01-01,2024-03-31,2024Q1,historical,3806,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2024-04-01,2024-06-30,2024Q2,historical,3913,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2024-07-01,2024-09-30,2024Q3,historical,4072,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2024-10-01,2024-12-31,2024Q4,historical,4302,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2025-01-01,2025-03-31,2025Q1,historical,4517,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2025-04-01,2025-06-30,2025Q2,historical,4770,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2025-07-01,2025-09-30,2025Q3,historical,5028,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2025-10-01,2025-12-31,2025Q4,historical,5261,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2026-01-01,2026-03-31,2026Q1,historical,5503,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2026-04-01,2026-06-30,2026Q2,historical,5716,customers,
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,6118,customers,2026-07-31
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,6118,customers,2026-08-15
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,6088,customers,2026-08-31
+Kestrel Security,KSTL,Cybersecurity,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,6158,customers,2026-09-15
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,64.40,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,67.73,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,68.24,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,71.88,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,76.40,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,76.78,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,78.91,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,83.57,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,85.99,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,89.33,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,93.71,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,96.30,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,99.57,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,102.66,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,35.03,$MM,2026-07-31
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,52.56,$MM,2026-08-15
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,70.73,$MM,2026-08-31
+Sentinel Grid,SNTL,Cybersecurity,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,88.48,$MM,2026-09-15
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,242.33,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,251.81,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,261.36,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,268.87,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,278.86,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,285.70,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,294.19,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,309.14,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,324.57,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,346.51,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,363.59,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,374.96,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,394.51,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,407.47,$MM,
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,415.95,$MM,2026-07-31
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,413.84,$MM,2026-08-15
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,410.83,$MM,2026-08-31
+Sentinel Grid,SNTL,Cybersecurity,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,415.31,$MM,2026-09-15
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2023-01-01,2023-03-31,2023Q1,historical,1.34,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2023-04-01,2023-06-30,2023Q2,historical,1.40,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2023-07-01,2023-09-30,2023Q3,historical,1.37,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2023-10-01,2023-12-31,2023Q4,historical,1.47,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2024-01-01,2024-03-31,2024Q1,historical,1.49,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2024-04-01,2024-06-30,2024Q2,historical,1.50,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2024-07-01,2024-09-30,2024Q3,historical,1.51,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2024-10-01,2024-12-31,2024Q4,historical,1.53,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2025-01-01,2025-03-31,2025Q1,historical,1.62,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2025-04-01,2025-06-30,2025Q2,historical,1.67,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2025-07-01,2025-09-30,2025Q3,historical,1.77,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2025-10-01,2025-12-31,2025Q4,historical,1.76,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2026-01-01,2026-03-31,2026Q1,historical,1.73,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2026-04-01,2026-06-30,2026Q2,historical,1.71,%,
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,1.64,%,2026-07-31
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,1.63,%,2026-08-15
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,1.63,%,2026-08-31
+Sentinel Grid,SNTL,Cybersecurity,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,1.64,%,2026-09-15
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,312.54,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,322.82,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,327.13,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,361.75,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,343.91,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,350.80,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,359.00,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,386.39,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,373.03,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,382.43,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,394.02,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,429.89,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,421.10,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,427.73,$MM,
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,147.11,$MM,2026-07-31
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,218.00,$MM,2026-08-15
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,296.06,$MM,2026-08-31
+Pinecrest Payments,PNCR,Payments,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,368.45,$MM,2026-09-15
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2023-01-01,2023-03-31,2023Q1,historical,38.968,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2023-04-01,2023-06-30,2023Q2,historical,39.883,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2023-07-01,2023-09-30,2023Q3,historical,40.730,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2023-10-01,2023-12-31,2023Q4,historical,45.479,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2024-01-01,2024-03-31,2024Q1,historical,43.512,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2024-04-01,2024-06-30,2024Q2,historical,45.033,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2024-07-01,2024-09-30,2024Q3,historical,45.882,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2024-10-01,2024-12-31,2024Q4,historical,50.559,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2025-01-01,2025-03-31,2025Q1,historical,49.063,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2025-04-01,2025-06-30,2025Q2,historical,51.283,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2025-07-01,2025-09-30,2025Q3,historical,52.721,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2025-10-01,2025-12-31,2025Q4,historical,57.166,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2026-01-01,2026-03-31,2026Q1,historical,55.747,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2026-04-01,2026-06-30,2026Q2,historical,57.171,$B,
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2026-07-01,2026-09-30,2026Q3,qtd,19.523,$B,2026-07-31
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2026-07-01,2026-09-30,2026Q3,qtd,29.365,$B,2026-08-15
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2026-07-01,2026-09-30,2026Q3,qtd,39.526,$B,2026-08-31
+Pinecrest Payments,PNCR,Payments,Total Payment Volume ($B),2026-07-01,2026-09-30,2026Q3,qtd,49.268,$B,2026-09-15
+Pinecrest Payments,PNCR,Payments,Paying Customers,2023-01-01,2023-03-31,2023Q1,historical,90858,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2023-04-01,2023-06-30,2023Q2,historical,94862,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2023-07-01,2023-09-30,2023Q3,historical,97534,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2023-10-01,2023-12-31,2023Q4,historical,101606,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2024-01-01,2024-03-31,2024Q1,historical,105338,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2024-04-01,2024-06-30,2024Q2,historical,107472,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2024-07-01,2024-09-30,2024Q3,historical,109710,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2024-10-01,2024-12-31,2024Q4,historical,112506,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2025-01-01,2025-03-31,2025Q1,historical,117918,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2025-04-01,2025-06-30,2025Q2,historical,121499,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2025-07-01,2025-09-30,2025Q3,historical,123870,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2025-10-01,2025-12-31,2025Q4,historical,127623,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2026-01-01,2026-03-31,2026Q1,historical,129231,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2026-04-01,2026-06-30,2026Q2,historical,132195,customers,
+Pinecrest Payments,PNCR,Payments,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,132261,customers,2026-07-31
+Pinecrest Payments,PNCR,Payments,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,131353,customers,2026-08-15
+Pinecrest Payments,PNCR,Payments,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,131944,customers,2026-08-31
+Pinecrest Payments,PNCR,Payments,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,132244,customers,2026-09-15
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2023-01-01,2023-03-31,2023Q1,historical,46.9,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2023-04-01,2023-06-30,2023Q2,historical,47.0,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2023-07-01,2023-09-30,2023Q3,historical,44.9,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2023-10-01,2023-12-31,2023Q4,historical,45.3,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2024-01-01,2024-03-31,2024Q1,historical,45.5,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2024-04-01,2024-06-30,2024Q2,historical,44.6,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2024-07-01,2024-09-30,2024Q3,historical,45.8,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2024-10-01,2024-12-31,2024Q4,historical,43.9,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2025-01-01,2025-03-31,2025Q1,historical,42.5,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2025-04-01,2025-06-30,2025Q2,historical,42.3,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2025-07-01,2025-09-30,2025Q3,historical,40.6,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2025-10-01,2025-12-31,2025Q4,historical,42.2,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2026-01-01,2026-03-31,2026Q1,historical,41.4,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2026-04-01,2026-06-30,2026Q2,historical,42.5,%,
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,40.8,%,2026-07-31
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,41.2,%,2026-08-15
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,41.1,%,2026-08-31
+Pinecrest Payments,PNCR,Payments,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,41.1,%,2026-09-15
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,83.66,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,87.05,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,89.18,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,91.95,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,94.83,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,95.99,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,98.87,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,103.03,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,105.63,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,110.52,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,112.18,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,116.24,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,120.31,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,124.38,$MM,
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,42.50,$MM,2026-07-31
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,64.25,$MM,2026-08-15
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,87.11,$MM,2026-08-31
+Fernway Insurance,FRNW,Insurtech,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,106.92,$MM,2026-09-15
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2023-01-01,2023-03-31,2023Q1,historical,620225,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2023-04-01,2023-06-30,2023Q2,historical,631877,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2023-07-01,2023-09-30,2023Q3,historical,655822,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2023-10-01,2023-12-31,2023Q4,historical,678831,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2024-01-01,2024-03-31,2024Q1,historical,699914,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2024-04-01,2024-06-30,2024Q2,historical,713330,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2024-07-01,2024-09-30,2024Q3,historical,728348,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2024-10-01,2024-12-31,2024Q4,historical,745716,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2025-01-01,2025-03-31,2025Q1,historical,771301,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2025-04-01,2025-06-30,2025Q2,historical,782335,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2025-07-01,2025-09-30,2025Q3,historical,809946,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2025-10-01,2025-12-31,2025Q4,historical,842223,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2026-01-01,2026-03-31,2026Q1,historical,851138,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2026-04-01,2026-06-30,2026Q2,historical,860986,customers,
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,887102,customers,2026-07-31
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,885259,customers,2026-08-15
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,883245,customers,2026-08-31
+Fernway Insurance,FRNW,Insurtech,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,876743,customers,2026-09-15
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2023-01-01,2023-03-31,2023Q1,historical,3.80,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2023-04-01,2023-06-30,2023Q2,historical,3.69,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2023-07-01,2023-09-30,2023Q3,historical,3.75,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2023-10-01,2023-12-31,2023Q4,historical,3.83,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2024-01-01,2024-03-31,2024Q1,historical,3.71,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2024-04-01,2024-06-30,2024Q2,historical,3.70,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2024-07-01,2024-09-30,2024Q3,historical,3.76,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2024-10-01,2024-12-31,2024Q4,historical,3.64,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2025-01-01,2025-03-31,2025Q1,historical,3.66,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2025-04-01,2025-06-30,2025Q2,historical,3.74,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2025-07-01,2025-09-30,2025Q3,historical,3.86,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2025-10-01,2025-12-31,2025Q4,historical,3.82,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2026-01-01,2026-03-31,2026Q1,historical,3.88,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2026-04-01,2026-06-30,2026Q2,historical,3.89,%,
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,4.03,%,2026-07-31
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,3.96,%,2026-08-15
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,3.95,%,2026-08-31
+Fernway Insurance,FRNW,Insurtech,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,3.93,%,2026-09-15
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2023-01-01,2023-03-31,2023Q1,historical,30.7,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2023-04-01,2023-06-30,2023Q2,historical,30.3,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2023-07-01,2023-09-30,2023Q3,historical,32.4,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2023-10-01,2023-12-31,2023Q4,historical,32.3,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2024-01-01,2024-03-31,2024Q1,historical,32.9,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2024-04-01,2024-06-30,2024Q2,historical,32.9,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2024-07-01,2024-09-30,2024Q3,historical,31.4,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2024-10-01,2024-12-31,2024Q4,historical,30.8,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2025-01-01,2025-03-31,2025Q1,historical,29.0,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2025-04-01,2025-06-30,2025Q2,historical,29.0,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2025-07-01,2025-09-30,2025Q3,historical,28.2,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2025-10-01,2025-12-31,2025Q4,historical,27.6,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2026-01-01,2026-03-31,2026Q1,historical,26.0,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2026-04-01,2026-06-30,2026Q2,historical,26.0,%,
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,25.3,%,2026-07-31
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,24.9,%,2026-08-15
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,25.6,%,2026-08-31
+Fernway Insurance,FRNW,Insurtech,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,25.3,%,2026-09-15
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,59.62,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,61.69,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,63.08,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,65.58,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,68.54,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,72.36,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,74.10,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,77.54,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,80.42,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,84.51,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,87.54,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,92.42,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,97.28,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,100.81,$MM,
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,34.16,$MM,2026-07-31
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,52.43,$MM,2026-08-15
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,69.95,$MM,2026-08-31
+Lumora Health,LUMO,Digital Health,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,86.97,$MM,2026-09-15
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2023-01-01,2023-03-31,2023Q1,historical,3357150,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2023-04-01,2023-06-30,2023Q2,historical,3527869,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2023-07-01,2023-09-30,2023Q3,historical,3686462,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2023-10-01,2023-12-31,2023Q4,historical,3844352,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2024-01-01,2024-03-31,2024Q1,historical,3941443,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2024-04-01,2024-06-30,2024Q2,historical,4130657,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2024-07-01,2024-09-30,2024Q3,historical,4222437,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2024-10-01,2024-12-31,2024Q4,historical,4391138,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2025-01-01,2025-03-31,2025Q1,historical,4554973,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2025-04-01,2025-06-30,2025Q2,historical,4820227,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2025-07-01,2025-09-30,2025Q3,historical,4954631,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2025-10-01,2025-12-31,2025Q4,historical,5180846,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2026-01-01,2026-03-31,2026Q1,historical,5317045,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2026-04-01,2026-06-30,2026Q2,historical,5496112,users,
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,5617397,users,2026-07-31
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,5699892,users,2026-08-15
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,5715920,users,2026-08-31
+Lumora Health,LUMO,Digital Health,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,5664044,users,2026-09-15
+Lumora Health,LUMO,Digital Health,Paying Customers,2023-01-01,2023-03-31,2023Q1,historical,556817,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2023-04-01,2023-06-30,2023Q2,historical,570560,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2023-07-01,2023-09-30,2023Q3,historical,581165,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2023-10-01,2023-12-31,2023Q4,historical,613271,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2024-01-01,2024-03-31,2024Q1,historical,638007,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2024-04-01,2024-06-30,2024Q2,historical,652143,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2024-07-01,2024-09-30,2024Q3,historical,673559,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2024-10-01,2024-12-31,2024Q4,historical,700212,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2025-01-01,2025-03-31,2025Q1,historical,726467,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2025-04-01,2025-06-30,2025Q2,historical,761966,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2025-07-01,2025-09-30,2025Q3,historical,800053,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2025-10-01,2025-12-31,2025Q4,historical,826528,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2026-01-01,2026-03-31,2026Q1,historical,869619,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2026-04-01,2026-06-30,2026Q2,historical,905488,customers,
+Lumora Health,LUMO,Digital Health,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,930815,customers,2026-07-31
+Lumora Health,LUMO,Digital Health,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,961554,customers,2026-08-15
+Lumora Health,LUMO,Digital Health,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,940817,customers,2026-08-31
+Lumora Health,LUMO,Digital Health,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,934866,customers,2026-09-15
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2023-01-01,2023-03-31,2023Q1,historical,12.36,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2023-04-01,2023-06-30,2023Q2,historical,12.76,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2023-07-01,2023-09-30,2023Q3,historical,13.18,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2023-10-01,2023-12-31,2023Q4,historical,13.74,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2024-01-01,2024-03-31,2024Q1,historical,14.11,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2024-04-01,2024-06-30,2024Q2,historical,14.81,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2024-07-01,2024-09-30,2024Q3,historical,15.45,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2024-10-01,2024-12-31,2024Q4,historical,16.02,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2025-01-01,2025-03-31,2025Q1,historical,16.42,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2025-04-01,2025-06-30,2025Q2,historical,17.19,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2025-07-01,2025-09-30,2025Q3,historical,17.69,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2025-10-01,2025-12-31,2025Q4,historical,18.66,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2026-01-01,2026-03-31,2026Q1,historical,19.67,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2026-04-01,2026-06-30,2026Q2,historical,20.42,$,
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,21.18,$,2026-07-31
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,21.42,$,2026-08-15
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,21.39,$,2026-08-31
+Lumora Health,LUMO,Digital Health,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,21.25,$,2026-09-15
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,44.65,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,45.78,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,47.14,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,46.21,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,50.02,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,51.40,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,51.92,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,50.45,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,54.43,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,56.63,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,58.00,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,56.62,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,60.24,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,62.52,$MM,
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,21.46,$MM,2026-07-31
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,32.28,$MM,2026-08-15
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,43.46,$MM,2026-08-31
+Brightleaf Learning,BLFL,Education,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,53.52,$MM,2026-09-15
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2023-01-01,2023-03-31,2023Q1,historical,9874908,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2023-04-01,2023-06-30,2023Q2,historical,10196519,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2023-07-01,2023-09-30,2023Q3,historical,10120270,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2023-10-01,2023-12-31,2023Q4,historical,10327548,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2024-01-01,2024-03-31,2024Q1,historical,10411688,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2024-04-01,2024-06-30,2024Q2,historical,10785282,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2024-07-01,2024-09-30,2024Q3,historical,10929471,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2024-10-01,2024-12-31,2024Q4,historical,11213788,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2025-01-01,2025-03-31,2025Q1,historical,11424015,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2025-04-01,2025-06-30,2025Q2,historical,11714125,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2025-07-01,2025-09-30,2025Q3,historical,12197875,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2025-10-01,2025-12-31,2025Q4,historical,12442239,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2026-01-01,2026-03-31,2026Q1,historical,12857913,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2026-04-01,2026-06-30,2026Q2,historical,13072906,users,
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,13266821,users,2026-07-31
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,13233064,users,2026-08-15
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,13223129,users,2026-08-31
+Brightleaf Learning,BLFL,Education,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,13349567,users,2026-09-15
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2023-01-01,2023-03-31,2023Q1,historical,4.24,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2023-04-01,2023-06-30,2023Q2,historical,4.29,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2023-07-01,2023-09-30,2023Q3,historical,4.35,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2023-10-01,2023-12-31,2023Q4,historical,4.51,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2024-01-01,2024-03-31,2024Q1,historical,4.64,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2024-04-01,2024-06-30,2024Q2,historical,4.81,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2024-07-01,2024-09-30,2024Q3,historical,4.97,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2024-10-01,2024-12-31,2024Q4,historical,5.16,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2025-01-01,2025-03-31,2025Q1,historical,5.34,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2025-04-01,2025-06-30,2025Q2,historical,5.47,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2025-07-01,2025-09-30,2025Q3,historical,5.55,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2025-10-01,2025-12-31,2025Q4,historical,5.60,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2026-01-01,2026-03-31,2026Q1,historical,5.67,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2026-04-01,2026-06-30,2026Q2,historical,5.82,$,
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,5.95,$,2026-07-31
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,6.03,$,2026-08-15
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,6.07,$,2026-08-31
+Brightleaf Learning,BLFL,Education,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,6.02,$,2026-09-15
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2023-01-01,2023-03-31,2023Q1,historical,4.84,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2023-04-01,2023-06-30,2023Q2,historical,4.75,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2023-07-01,2023-09-30,2023Q3,historical,4.83,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2023-10-01,2023-12-31,2023Q4,historical,4.93,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2024-01-01,2024-03-31,2024Q1,historical,4.88,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2024-04-01,2024-06-30,2024Q2,historical,4.82,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2024-07-01,2024-09-30,2024Q3,historical,4.82,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2024-10-01,2024-12-31,2024Q4,historical,4.85,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2025-01-01,2025-03-31,2025Q1,historical,4.76,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2025-04-01,2025-06-30,2025Q2,historical,4.60,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2025-07-01,2025-09-30,2025Q3,historical,4.53,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2025-10-01,2025-12-31,2025Q4,historical,4.58,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2026-01-01,2026-03-31,2026Q1,historical,4.46,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2026-04-01,2026-06-30,2026Q2,historical,4.40,%,
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,4.27,%,2026-07-31
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,4.25,%,2026-08-15
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,4.25,%,2026-08-31
+Brightleaf Learning,BLFL,Education,Customer Churn (%),2026-07-01,2026-09-30,2026Q3,qtd,4.27,%,2026-09-15
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,121.53,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,123.97,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,126.77,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,148.09,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,131.76,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,133.60,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,134.71,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,159.23,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,142.85,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,146.22,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,148.14,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,170.32,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,153.31,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,156.30,$MM,
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,52.81,$MM,2026-07-31
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,79.40,$MM,2026-08-15
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,105.74,$MM,2026-08-31
+Nordvik Games,NRDV,Gaming,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,130.70,$MM,2026-09-15
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2023-01-01,2023-03-31,2023Q1,historical,28577591,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2023-04-01,2023-06-30,2023Q2,historical,28881887,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2023-07-01,2023-09-30,2023Q3,historical,29566203,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2023-10-01,2023-12-31,2023Q4,historical,29566741,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2024-01-01,2024-03-31,2024Q1,historical,29724647,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2024-04-01,2024-06-30,2024Q2,historical,30240449,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2024-07-01,2024-09-30,2024Q3,historical,30434558,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2024-10-01,2024-12-31,2024Q4,historical,30586716,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2025-01-01,2025-03-31,2025Q1,historical,31516534,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2025-04-01,2025-06-30,2025Q2,historical,32008852,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2025-07-01,2025-09-30,2025Q3,historical,32153464,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2025-10-01,2025-12-31,2025Q4,historical,32650732,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2026-01-01,2026-03-31,2026Q1,historical,33583006,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2026-04-01,2026-06-30,2026Q2,historical,34572916,users,
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,34874735,users,2026-07-31
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,34958293,users,2026-08-15
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,34793615,users,2026-08-31
+Nordvik Games,NRDV,Gaming,Monthly Active Users,2026-07-01,2026-09-30,2026Q3,qtd,35194610,users,2026-09-15
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2023-01-01,2023-03-31,2023Q1,historical,1.49,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2023-04-01,2023-06-30,2023Q2,historical,1.51,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2023-07-01,2023-09-30,2023Q3,historical,1.53,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2023-10-01,2023-12-31,2023Q4,historical,1.54,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2024-01-01,2024-03-31,2024Q1,historical,1.55,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2024-04-01,2024-06-30,2024Q2,historical,1.59,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2024-07-01,2024-09-30,2024Q3,historical,1.61,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2024-10-01,2024-12-31,2024Q4,historical,1.65,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2025-01-01,2025-03-31,2025Q1,historical,1.66,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2025-04-01,2025-06-30,2025Q2,historical,1.72,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2025-07-01,2025-09-30,2025Q3,historical,1.75,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2025-10-01,2025-12-31,2025Q4,historical,1.78,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2026-01-01,2026-03-31,2026Q1,historical,1.81,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2026-04-01,2026-06-30,2026Q2,historical,1.85,$,
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,1.94,$,2026-07-31
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,1.92,$,2026-08-15
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,1.93,$,2026-08-31
+Nordvik Games,NRDV,Gaming,Average Revenue per User ($),2026-07-01,2026-09-30,2026Q3,qtd,1.93,$,2026-09-15
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,167.12,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,167.90,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,172.30,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,209.45,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,177.69,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,180.87,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,184.75,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,218.79,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,191.03,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,195.22,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,201.45,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,241.60,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,208.53,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,215.18,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,72.38,$MM,2026-07-31
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,110.23,$MM,2026-08-15
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,148.29,$MM,2026-08-31
+Maple & Mortar Home,MMHM,Marketplaces,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,182.62,$MM,2026-09-15
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2023-01-01,2023-03-31,2023Q1,historical,1283.70,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2023-04-01,2023-06-30,2023Q2,historical,1318.37,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2023-07-01,2023-09-30,2023Q3,historical,1348.01,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2023-10-01,2023-12-31,2023Q4,historical,1642.34,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2024-01-01,2024-03-31,2024Q1,historical,1418.85,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2024-04-01,2024-06-30,2024Q2,historical,1459.36,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2024-07-01,2024-09-30,2024Q3,historical,1534.04,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2024-10-01,2024-12-31,2024Q4,historical,1868.99,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2025-01-01,2025-03-31,2025Q1,historical,1615.23,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2025-04-01,2025-06-30,2025Q2,historical,1629.98,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2025-07-01,2025-09-30,2025Q3,historical,1676.61,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2025-10-01,2025-12-31,2025Q4,historical,2014.04,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2026-01-01,2026-03-31,2026Q1,historical,1747.20,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2026-04-01,2026-06-30,2026Q2,historical,1810.01,$MM,
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,617.47,$MM,2026-07-31
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,950.28,$MM,2026-08-15
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1268.11,$MM,2026-08-31
+Maple & Mortar Home,MMHM,Marketplaces,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1567.77,$MM,2026-09-15
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2023-01-01,2023-03-31,2023Q1,historical,5865531,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2023-04-01,2023-06-30,2023Q2,historical,6049678,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2023-07-01,2023-09-30,2023Q3,historical,6228714,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2023-10-01,2023-12-31,2023Q4,historical,7501922,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2024-01-01,2024-03-31,2024Q1,historical,6467553,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2024-04-01,2024-06-30,2024Q2,historical,6580365,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2024-07-01,2024-09-30,2024Q3,historical,6788571,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2024-10-01,2024-12-31,2024Q4,historical,8258485,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2025-01-01,2025-03-31,2025Q1,historical,7137671,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2025-04-01,2025-06-30,2025Q2,historical,7266951,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2025-07-01,2025-09-30,2025Q3,historical,7487160,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2025-10-01,2025-12-31,2025Q4,historical,8860498,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2026-01-01,2026-03-31,2026Q1,historical,7933318,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2026-04-01,2026-06-30,2026Q2,historical,8055081,orders,
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,2606392,orders,2026-07-31
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,4016427,orders,2026-08-15
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,5299562,orders,2026-08-31
+Maple & Mortar Home,MMHM,Marketplaces,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,6690742,orders,2026-09-15
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2023-01-01,2023-03-31,2023Q1,historical,223.16,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2023-04-01,2023-06-30,2023Q2,historical,227.60,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2023-07-01,2023-09-30,2023Q3,historical,230.10,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2023-10-01,2023-12-31,2023Q4,historical,236.00,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2024-01-01,2024-03-31,2024Q1,historical,240.86,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2024-04-01,2024-06-30,2024Q2,historical,245.58,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2024-07-01,2024-09-30,2024Q3,historical,248.85,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2024-10-01,2024-12-31,2024Q4,historical,255.63,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2025-01-01,2025-03-31,2025Q1,historical,260.77,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2025-04-01,2025-06-30,2025Q2,historical,270.08,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2025-07-01,2025-09-30,2025Q3,historical,273.89,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2025-10-01,2025-12-31,2025Q4,historical,285.00,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2026-01-01,2026-03-31,2026Q1,historical,297.77,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2026-04-01,2026-06-30,2026Q2,historical,309.59,$,
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,320.59,$,2026-07-31
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,322.65,$,2026-08-15
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,324.16,$,2026-08-31
+Maple & Mortar Home,MMHM,Marketplaces,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,322.31,$,2026-09-15
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,237.53,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,242.52,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,251.84,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,271.43,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,264.52,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,269.62,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,280.08,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,299.84,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,293.91,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,303.20,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,308.76,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,335.87,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,332.30,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,342.10,$MM,
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,118.99,$MM,2026-07-31
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,175.37,$MM,2026-08-15
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,236.03,$MM,2026-08-31
+Copperfield Foods,CPFD,Food Delivery,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,292.15,$MM,2026-09-15
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2023-01-01,2023-03-31,2023Q1,historical,1972.61,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2023-04-01,2023-06-30,2023Q2,historical,2048.89,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2023-07-01,2023-09-30,2023Q3,historical,2138.21,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2023-10-01,2023-12-31,2023Q4,historical,2321.19,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2024-01-01,2024-03-31,2024Q1,historical,2285.75,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2024-04-01,2024-06-30,2024Q2,historical,2367.11,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2024-07-01,2024-09-30,2024Q3,historical,2427.62,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2024-10-01,2024-12-31,2024Q4,historical,2624.26,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2025-01-01,2025-03-31,2025Q1,historical,2549.34,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2025-04-01,2025-06-30,2025Q2,historical,2589.20,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2025-07-01,2025-09-30,2025Q3,historical,2672.13,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2025-10-01,2025-12-31,2025Q4,historical,2838.97,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2026-01-01,2026-03-31,2026Q1,historical,2714.02,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2026-04-01,2026-06-30,2026Q2,historical,2821.47,$MM,
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,949.31,$MM,2026-07-31
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1434.04,$MM,2026-08-15
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1925.46,$MM,2026-08-31
+Copperfield Foods,CPFD,Food Delivery,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,2394.95,$MM,2026-09-15
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2023-01-01,2023-03-31,2023Q1,historical,62733619,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2023-04-01,2023-06-30,2023Q2,historical,63691536,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2023-07-01,2023-09-30,2023Q3,historical,65803307,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2023-10-01,2023-12-31,2023Q4,historical,71268604,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2024-01-01,2024-03-31,2024Q1,historical,68303297,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2024-04-01,2024-06-30,2024Q2,historical,71357464,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2024-07-01,2024-09-30,2024Q3,historical,75101259,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2024-10-01,2024-12-31,2024Q4,historical,81608296,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2025-01-01,2025-03-31,2025Q1,historical,80117058,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2025-04-01,2025-06-30,2025Q2,historical,82019984,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2025-07-01,2025-09-30,2025Q3,historical,84984104,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2025-10-01,2025-12-31,2025Q4,historical,91253474,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2026-01-01,2026-03-31,2026Q1,historical,89668908,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2026-04-01,2026-06-30,2026Q2,historical,92730146,orders,
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,31756376,orders,2026-07-31
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,48149960,orders,2026-08-15
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,64852425,orders,2026-08-31
+Copperfield Foods,CPFD,Food Delivery,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,80629558,orders,2026-09-15
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2023-01-01,2023-03-31,2023Q1,historical,32.28,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2023-04-01,2023-06-30,2023Q2,historical,32.71,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2023-07-01,2023-09-30,2023Q3,historical,33.67,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2023-10-01,2023-12-31,2023Q4,historical,34.67,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2024-01-01,2024-03-31,2024Q1,historical,35.28,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2024-04-01,2024-06-30,2024Q2,historical,36.66,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2024-07-01,2024-09-30,2024Q3,historical,37.45,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2024-10-01,2024-12-31,2024Q4,historical,37.85,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2025-01-01,2025-03-31,2025Q1,historical,39.02,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2025-04-01,2025-06-30,2025Q2,historical,40.58,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2025-07-01,2025-09-30,2025Q3,historical,41.50,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2025-10-01,2025-12-31,2025Q4,historical,42.38,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2026-01-01,2026-03-31,2026Q1,historical,43.03,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2026-04-01,2026-06-30,2026Q2,historical,44.36,$,
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,45.20,$,2026-07-31
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,45.38,$,2026-08-15
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,45.73,$,2026-08-31
+Copperfield Foods,CPFD,Food Delivery,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,45.90,$,2026-09-15
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,190.36,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,193.18,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,196.35,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,222.73,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,203.30,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,206.70,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,205.46,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,237.33,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,220.87,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,226.93,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,229.90,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,261.02,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,236.65,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,243.15,$MM,
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,80.92,$MM,2026-07-31
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,125.50,$MM,2026-08-15
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,165.11,$MM,2026-08-31
+Harborline Travel,HRBL,Travel,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,204.35,$MM,2026-09-15
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2023-01-01,2023-03-31,2023Q1,historical,2533.50,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2023-04-01,2023-06-30,2023Q2,historical,2573.75,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2023-07-01,2023-09-30,2023Q3,historical,2639.73,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2023-10-01,2023-12-31,2023Q4,historical,3007.58,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2024-01-01,2024-03-31,2024Q1,historical,2741.85,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2024-04-01,2024-06-30,2024Q2,historical,2763.58,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2024-07-01,2024-09-30,2024Q3,historical,2862.52,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2024-10-01,2024-12-31,2024Q4,historical,3265.13,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2025-01-01,2025-03-31,2025Q1,historical,2931.05,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2025-04-01,2025-06-30,2025Q2,historical,2985.78,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2025-07-01,2025-09-30,2025Q3,historical,3040.68,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2025-10-01,2025-12-31,2025Q4,historical,3453.80,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2026-01-01,2026-03-31,2026Q1,historical,3141.10,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2026-04-01,2026-06-30,2026Q2,historical,3255.13,$MM,
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1081.33,$MM,2026-07-31
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,1659.52,$MM,2026-08-15
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,2206.65,$MM,2026-08-31
+Harborline Travel,HRBL,Travel,Gross Merchandise Volume ($MM),2026-07-01,2026-09-30,2026Q3,qtd,2755.16,$MM,2026-09-15
+Harborline Travel,HRBL,Travel,Average Order Value ($),2023-01-01,2023-03-31,2023Q1,historical,633.79,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2023-04-01,2023-06-30,2023Q2,historical,640.72,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2023-07-01,2023-09-30,2023Q3,historical,658.42,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2023-10-01,2023-12-31,2023Q4,historical,658.78,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2024-01-01,2024-03-31,2024Q1,historical,680.99,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2024-04-01,2024-06-30,2024Q2,historical,693.21,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2024-07-01,2024-09-30,2024Q3,historical,707.51,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2024-10-01,2024-12-31,2024Q4,historical,725.13,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2025-01-01,2025-03-31,2025Q1,historical,744.83,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2025-04-01,2025-06-30,2025Q2,historical,772.63,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2025-07-01,2025-09-30,2025Q3,historical,795.42,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2025-10-01,2025-12-31,2025Q4,historical,815.95,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2026-01-01,2026-03-31,2026Q1,historical,836.06,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2026-04-01,2026-06-30,2026Q2,historical,864.42,$,
+Harborline Travel,HRBL,Travel,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,910.58,$,2026-07-31
+Harborline Travel,HRBL,Travel,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,885.24,$,2026-08-15
+Harborline Travel,HRBL,Travel,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,884.09,$,2026-08-31
+Harborline Travel,HRBL,Travel,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,890.06,$,2026-09-15
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,413.90,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,416.60,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,417.41,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,424.90,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,427.17,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,427.08,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,434.52,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,447.10,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,454.94,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,452.60,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,460.96,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,469.58,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,475.66,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,486.41,$MM,
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,159.59,$MM,2026-07-31
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,245.26,$MM,2026-08-15
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,321.97,$MM,2026-08-31
+Orbital Freight,ORBF,Logistics,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,405.07,$MM,2026-09-15
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2023-01-01,2023-03-31,2023Q1,historical,18277494,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2023-04-01,2023-06-30,2023Q2,historical,18492639,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2023-07-01,2023-09-30,2023Q3,historical,18684854,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2023-10-01,2023-12-31,2023Q4,historical,18454074,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2024-01-01,2024-03-31,2024Q1,historical,19007640,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2024-04-01,2024-06-30,2024Q2,historical,19349946,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2024-07-01,2024-09-30,2024Q3,historical,19745802,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2024-10-01,2024-12-31,2024Q4,historical,20335092,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2025-01-01,2025-03-31,2025Q1,historical,20479495,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2025-04-01,2025-06-30,2025Q2,historical,21136394,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2025-07-01,2025-09-30,2025Q3,historical,21716897,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2025-10-01,2025-12-31,2025Q4,historical,21900711,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2026-01-01,2026-03-31,2026Q1,historical,22219570,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2026-04-01,2026-06-30,2026Q2,historical,22766831,orders,
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,7432383,orders,2026-07-31
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,11519036,orders,2026-08-15
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,15519508,orders,2026-08-31
+Orbital Freight,ORBF,Logistics,Orders Fulfilled,2026-07-01,2026-09-30,2026Q3,qtd,19068269,orders,2026-09-15
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2023-01-01,2023-03-31,2023Q1,historical,23.9,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2023-04-01,2023-06-30,2023Q2,historical,23.5,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2023-07-01,2023-09-30,2023Q3,historical,23.5,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2023-10-01,2023-12-31,2023Q4,historical,23.1,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2024-01-01,2024-03-31,2024Q1,historical,24.3,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2024-04-01,2024-06-30,2024Q2,historical,26.0,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2024-07-01,2024-09-30,2024Q3,historical,26.4,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2024-10-01,2024-12-31,2024Q4,historical,27.0,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2025-01-01,2025-03-31,2025Q1,historical,26.9,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2025-04-01,2025-06-30,2025Q2,historical,27.3,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2025-07-01,2025-09-30,2025Q3,historical,27.7,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2025-10-01,2025-12-31,2025Q4,historical,26.8,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2026-01-01,2026-03-31,2026Q1,historical,25.9,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2026-04-01,2026-06-30,2026Q2,historical,25.3,%,
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,23.7,%,2026-07-31
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,24.3,%,2026-08-15
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,24.1,%,2026-08-31
+Orbital Freight,ORBF,Logistics,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,24.2,%,2026-09-15
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,533.42,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,549.97,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,566.33,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,638.73,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,614.92,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,624.19,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,645.80,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,727.94,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,701.29,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,727.31,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,761.17,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,866.98,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,844.70,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,876.65,$MM,
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,306.30,$MM,2026-07-31
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,454.81,$MM,2026-08-15
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,611.38,$MM,2026-08-31
+Voltaic Mobility,VOLT,Electric Mobility,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,756.06,$MM,2026-09-15
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2023-01-01,2023-03-31,2023Q1,historical,22400,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2023-04-01,2023-06-30,2023Q2,historical,22968,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2023-07-01,2023-09-30,2023Q3,historical,23989,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2023-10-01,2023-12-31,2023Q4,historical,27017,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2024-01-01,2024-03-31,2024Q1,historical,25604,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2024-04-01,2024-06-30,2024Q2,historical,26751,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2024-07-01,2024-09-30,2024Q3,historical,27417,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2024-10-01,2024-12-31,2024Q4,historical,30540,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2025-01-01,2025-03-31,2025Q1,historical,28994,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2025-04-01,2025-06-30,2025Q2,historical,30084,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2025-07-01,2025-09-30,2025Q3,historical,31409,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2025-10-01,2025-12-31,2025Q4,historical,35436,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2026-01-01,2026-03-31,2026Q1,historical,33973,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2026-04-01,2026-06-30,2026Q2,historical,35529,devices,
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2026-07-01,2026-09-30,2026Q3,qtd,12282,devices,2026-07-31
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2026-07-01,2026-09-30,2026Q3,qtd,18282,devices,2026-08-15
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2026-07-01,2026-09-30,2026Q3,qtd,24645,devices,2026-08-31
+Voltaic Mobility,VOLT,Electric Mobility,Devices Shipped,2026-07-01,2026-09-30,2026Q3,qtd,31015,devices,2026-09-15
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2023-01-01,2023-03-31,2023Q1,historical,24587.69,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2023-04-01,2023-06-30,2023Q2,historical,25384.28,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2023-07-01,2023-09-30,2023Q3,historical,26256.06,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2023-10-01,2023-12-31,2023Q4,historical,27237.72,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2024-01-01,2024-03-31,2024Q1,historical,28094.58,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2024-04-01,2024-06-30,2024Q2,historical,28925.35,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2024-07-01,2024-09-30,2024Q3,historical,29882.40,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2024-10-01,2024-12-31,2024Q4,historical,31778.33,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2025-01-01,2025-03-31,2025Q1,historical,33191.44,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2025-04-01,2025-06-30,2025Q2,historical,35203.04,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2025-07-01,2025-09-30,2025Q3,historical,36415.65,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2025-10-01,2025-12-31,2025Q4,historical,38113.80,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2026-01-01,2026-03-31,2026Q1,historical,39733.97,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2026-04-01,2026-06-30,2026Q2,historical,41422.58,$,
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,41411.74,$,2026-07-31
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,41219.57,$,2026-08-15
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,42157.33,$,2026-08-31
+Voltaic Mobility,VOLT,Electric Mobility,Average Order Value ($),2026-07-01,2026-09-30,2026Q3,qtd,41983.96,$,2026-09-15
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2023-01-01,2023-03-31,2023Q1,historical,22.8,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2023-04-01,2023-06-30,2023Q2,historical,22.3,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2023-07-01,2023-09-30,2023Q3,historical,23.6,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2023-10-01,2023-12-31,2023Q4,historical,22.1,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2024-01-01,2024-03-31,2024Q1,historical,22.6,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2024-04-01,2024-06-30,2024Q2,historical,23.1,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2024-07-01,2024-09-30,2024Q3,historical,21.9,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2024-10-01,2024-12-31,2024Q4,historical,21.6,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2025-01-01,2025-03-31,2025Q1,historical,22.7,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2025-04-01,2025-06-30,2025Q2,historical,21.4,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2025-07-01,2025-09-30,2025Q3,historical,20.9,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2025-10-01,2025-12-31,2025Q4,historical,20.0,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2026-01-01,2026-03-31,2026Q1,historical,20.0,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2026-04-01,2026-06-30,2026Q2,historical,22.0,%,
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,23.4,%,2026-07-31
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,23.3,%,2026-08-15
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,23.4,%,2026-08-31
+Voltaic Mobility,VOLT,Electric Mobility,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,23.5,%,2026-09-15
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,269.25,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2023-04-01,2023-06-30,2023Q2,historical,271.31,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,275.74,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2023-10-01,2023-12-31,2023Q4,historical,376.73,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,281.67,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,286.05,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,294.97,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,397.09,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,300.29,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,310.01,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,315.94,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,430.70,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,318.08,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,319.78,$MM,
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,102.63,$MM,2026-07-31
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,160.05,$MM,2026-08-15
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,212.50,$MM,2026-08-31
+Aerolume Devices,ARLM,Consumer Hardware,Total Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,264.49,$MM,2026-09-15
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2023-01-01,2023-03-31,2023Q1,historical,1151518,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2023-04-01,2023-06-30,2023Q2,historical,1150121,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2023-07-01,2023-09-30,2023Q3,historical,1166039,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2023-10-01,2023-12-31,2023Q4,historical,1583342,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2024-01-01,2024-03-31,2024Q1,historical,1193917,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2024-04-01,2024-06-30,2024Q2,historical,1198661,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2024-07-01,2024-09-30,2024Q3,historical,1222167,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2024-10-01,2024-12-31,2024Q4,historical,1681091,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2025-01-01,2025-03-31,2025Q1,historical,1246902,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2025-04-01,2025-06-30,2025Q2,historical,1268794,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2025-07-01,2025-09-30,2025Q3,historical,1264075,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2025-10-01,2025-12-31,2025Q4,historical,1740985,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2026-01-01,2026-03-31,2026Q1,historical,1311119,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2026-04-01,2026-06-30,2026Q2,historical,1328315,devices,
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2026-07-01,2026-09-30,2026Q3,qtd,430663,devices,2026-07-31
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2026-07-01,2026-09-30,2026Q3,qtd,663629,devices,2026-08-15
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2026-07-01,2026-09-30,2026Q3,qtd,883710,devices,2026-08-31
+Aerolume Devices,ARLM,Consumer Hardware,Devices Shipped,2026-07-01,2026-09-30,2026Q3,qtd,1088936,devices,2026-09-15
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2023-01-01,2023-03-31,2023Q1,historical,38.0,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2023-04-01,2023-06-30,2023Q2,historical,37.5,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2023-07-01,2023-09-30,2023Q3,historical,37.2,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2023-10-01,2023-12-31,2023Q4,historical,35.7,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2024-01-01,2024-03-31,2024Q1,historical,35.6,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2024-04-01,2024-06-30,2024Q2,historical,36.9,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2024-07-01,2024-09-30,2024Q3,historical,35.4,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2024-10-01,2024-12-31,2024Q4,historical,35.5,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2025-01-01,2025-03-31,2025Q1,historical,35.3,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2025-04-01,2025-06-30,2025Q2,historical,37.5,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2025-07-01,2025-09-30,2025Q3,historical,36.7,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2025-10-01,2025-12-31,2025Q4,historical,35.7,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2026-01-01,2026-03-31,2026Q1,historical,34.3,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2026-04-01,2026-06-30,2026Q2,historical,33.3,%,
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,33.5,%,2026-07-31
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,33.5,%,2026-08-15
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,33.1,%,2026-08-31
+Aerolume Devices,ARLM,Consumer Hardware,Gross Margin (%),2026-07-01,2026-09-30,2026Q3,qtd,32.9,%,2026-09-15

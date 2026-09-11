@@ -1,0 +1,32 @@
+company_name,ticker,sector,kpi,period_start,period_end,period,estimate_type,value,unit,as_of
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2024-01-01,2024-03-31,2024Q1,historical,64.00,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2024-01-01,2024-03-31,2024Q1,historical,820,customers,
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,66.50,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2024-04-01,2024-06-30,2024Q2,historical,855,customers,
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2024-07-01,2024-09-30,2024Q3,historical,69.00,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2024-07-01,2024-09-30,2024Q3,historical,890,customers,
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2024-10-01,2024-12-31,2024Q4,historical,71.50,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2024-10-01,2024-12-31,2024Q4,historical,925,customers,
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,74.00,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2025-01-01,2025-03-31,2025Q1,historical,960,customers,
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2025-04-01,2025-06-30,2025Q2,historical,76.50,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2025-04-01,2025-06-30,2025Q2,historical,995,customers,
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2025-07-01,2025-09-30,2025Q3,historical,79.00,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2025-07-01,2025-09-30,2025Q3,historical,1030,customers,
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2025-10-01,2025-12-31,2025Q4,historical,81.50,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2025-10-01,2025-12-31,2025Q4,historical,1065,customers,
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2026-01-01,2026-03-31,2026Q1,historical,84.00,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2026-01-01,2026-03-31,2026Q1,historical,1100,customers,
+Gapwise Robotics,GAPW,Industrial Tech,Total Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,86.50,$MM,
+Gapwise Robotics,GAPW,Industrial Tech,Paying Customers,2026-04-01,2026-06-30,2026Q2,historical,1135,customers,
+Sparrow Bio Software,SPRW,Software,Annual Recurring Revenue ($MM),2023-01-01,2023-03-31,2023Q1,historical,48.00,$MM,
+Sparrow Bio Software,SPRW,Software,Annual Recurring Revenue ($MM),2023-07-01,2023-09-30,2023Q3,historical,53.50,$MM,
+Sparrow Bio Software,SPRW,Software,Annual Recurring Revenue ($MM),2024-04-01,2024-06-30,2024Q2,historical,59.00,$MM,
+Sparrow Bio Software,SPRW,Software,Annual Recurring Revenue ($MM),2025-01-01,2025-03-31,2025Q1,historical,64.50,$MM,
+Sparrow Bio Software,SPRW,Software,Annual Recurring Revenue ($MM),2026-04-01,2026-06-30,2026Q2,historical,70.00,$MM,
+Sparrow Bio Software,SPRW,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,70.20,$MM,2026-07-31
+Sparrow Bio Software,SPRW,Software,Annual Recurring Revenue ($MM),2026-07-01,2026-09-30,2026Q3,qtd,71.60,$MM,2026-08-15
+Freshlist Labs,FRSH,Marketplaces,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,1900,customers,2026-07-31
+Freshlist Labs,FRSH,Marketplaces,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,2650,customers,2026-08-15
+Freshlist Labs,FRSH,Marketplaces,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,3300,customers,2026-08-31
+Freshlist Labs,FRSH,Marketplaces,Paying Customers,2026-07-01,2026-09-30,2026Q3,qtd,4050,customers,2026-09-15

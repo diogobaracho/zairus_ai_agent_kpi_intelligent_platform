@@ -27,6 +27,7 @@ from kpi_core.models import (
     QtdSnapshot,
     Sector,
     ToolCallAudit,
+    UnitKind,
 )
 
 SessionMaker = async_sessionmaker[AsyncSession]
@@ -36,13 +37,20 @@ def _company(row: CompanyRow) -> Company:
     return Company(ticker=row.ticker, name=row.name, sector=row.sector)
 
 
+_UNIT_KINDS: dict[str, UnitKind] = {"currency": "currency", "percent": "percent"}
+
+
+def _unit_kind(value: str) -> UnitKind:
+    return _UNIT_KINDS.get(value, "count")
+
+
 def _kpi(row: KpiRow) -> KpiDefinition:
     return KpiDefinition(
         slug=row.slug,
         name=row.name,
         display_name=row.display_name,
         unit=row.unit,
-        unit_kind="currency" if row.unit_kind == "currency" else "count",
+        unit_kind=_unit_kind(row.unit_kind),
         scale=row.scale,
         description=row.description,
     )

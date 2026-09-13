@@ -23,6 +23,7 @@ _UNIT_KINDS: dict[str, tuple[UnitKind, int]] = {
     "$MM": ("currency", 1_000_000),
     "$M": ("currency", 1_000_000),
     "$B": ("currency", 1_000_000_000),
+    "%": ("percent", 1),
 }
 
 

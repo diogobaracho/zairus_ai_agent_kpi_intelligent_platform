@@ -49,7 +49,7 @@ def upgrade() -> None:
         sa.Column("description", sa.Text, nullable=False, server_default=""),
         sa.UniqueConstraint("slug", name="uq_kpis_slug"),
         sa.UniqueConstraint("name", name="uq_kpis_name"),
-        sa.CheckConstraint("unit_kind IN ('currency','count')", name="ck_kpis_unit_kind"),
+        sa.CheckConstraint("unit_kind IN ('currency','count','percent')", name="ck_kpis_unit_kind"),
     )
 
     op.create_table(

@@ -80,6 +80,8 @@ class KpiRepositoryContract:
         rev = next(k for k in kpis if k.slug == "total_revenue")
         assert (rev.first_period, rev.last_period, rev.historical_count) == ("2023Q1", "2026Q2", 14)
         assert rev.has_qtd and str(rev.latest_qtd_as_of) == "2026-09-15"
+        nrr = next(k for k in kpis if k.slug == "net_revenue_retention")
+        assert (nrr.unit, nrr.unit_kind) == ("%", "percent")
 
     async def test_company_kpis_edge_cases(self, repo: KpiRepository) -> None:
         assert {k.slug for k in await repo.list_company_kpis(CTX, "GAPW")} == {

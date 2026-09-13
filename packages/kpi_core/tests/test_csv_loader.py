@@ -13,6 +13,8 @@ def test_reads_sample(sample_csv_path: Path) -> None:
     assert len(qtd) == 236 and all(r.as_of is not None for r in qtd)
     rev = next(r for r in rows if r.kpi == "Total Revenue ($MM)")
     assert (rev.kpi_slug, rev.unit_kind, rev.scale) == ("total_revenue", "currency", 1_000_000)
+    nrr = next(r for r in rows if r.kpi == "Net Revenue Retention (%)")
+    assert (nrr.kpi_slug, nrr.unit_kind, nrr.scale) == ("net_revenue_retention", "percent", 1)
     tpv = next(r for r in rows if r.kpi == "Total Payment Volume ($B)")
     assert (tpv.unit_kind, tpv.scale) == ("currency", 1_000_000_000)
 

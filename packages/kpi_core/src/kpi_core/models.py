@@ -12,7 +12,7 @@ from typing import Any, Literal
 from pydantic import BaseModel, ConfigDict, Field
 
 EstimateType = Literal["historical", "qtd"]
-UnitKind = Literal["currency", "count"]
+UnitKind = Literal["currency", "count", "percent"]
 AuditStatus = Literal["ok", "error", "timeout", "rejected"]
 ChatRole = Literal["user", "assistant"]
 

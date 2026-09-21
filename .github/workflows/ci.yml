@@ -1,0 +1,116 @@
+# Mirrors `make ci`: every job maps to a make target so a green local run means a green CI run.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+env:
+  PYTHON_VERSION: "3.12"
+  NODE_VERSION: "24.21.0"
+
+jobs:
+  governance:
+    name: Repository gates
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python3 scripts/check_doc_links.py
+      - run: python3 scripts/audit_docs.py
+
+  python:
+    name: Python lint, types, unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: { enable-cache: true }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: uv sync --all-packages
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run mypy .
+      - run: uv run pytest -m "not integration and not e2e and not live" --cov --cov-report=xml
+      - uses: actions/upload-artifact@v4
+        with: { name: coverage-xml, path: coverage.xml }
+
+  python-integration:
+    name: Python integration tests (Postgres)
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env: { POSTGRES_USER: kpi, POSTGRES_PASSWORD: kpi, POSTGRES_DB: kpi_test }
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U kpi" --health-interval 5s --health-timeout 3s --health-retries 10
+    env:
+      KPI_TEST_DATABASE_URL: postgresql+asyncpg://kpi:kpi@localhost:5432/kpi_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: { enable-cache: true }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: uv sync --all-packages
+      - run: uv run pytest -m integration
+
+  typescript:
+    name: TypeScript lint, types, tests, build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "24.21.0" }
+      - run: corepack enable
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm -r --if-present lint
+      - run: pnpm -r --if-present typecheck
+      - run: pnpm -r --if-present test
+      - run: pnpm -r --if-present build
+
+  e2e:
+    name: End-to-end (compose + Playwright)
+    runs-on: ubuntu-latest
+    needs: [python, typescript]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "24.21.0" }
+      - run: corepack enable && pnpm install --frozen-lockfile
+      - run: pnpm --filter e2e exec playwright install --with-deps chromium
+      - run: docker compose up -d --build
+      - run: bash scripts/wait_for_http.sh http://localhost:8080/readyz 180
+      - uses: astral-sh/setup-uv@v5
+        with: { enable-cache: true }
+      - run: uv sync --all-packages
+      - run: pnpm --filter e2e test:e2e
+      - run: uv run pytest -m e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with: { name: playwright-report, path: tests/e2e/playwright-report }
+      - run: docker compose logs --no-color > compose.log || true
+        if: always()
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: compose-logs, path: compose.log }
+
+  secrets:
+    name: Secret scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: gitleaks/gitleaks-action@v2
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    needs: [governance, python, python-integration, typescript, e2e, secrets]
+    steps:
+      - run: echo "All required checks passed."

@@ -1,0 +1,31 @@
+# Generic, provider-agnostic manifests. Set the image registry/tag with kustomize `images:`
+# and provide the Secret from your platform's secret store (see secret.example.yaml).
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: zairus
+resources:
+  - namespace.yaml
+  - configmap.yaml
+  - postgres.yaml
+  - migrate-job.yaml
+  - mcp.yaml
+  - api.yaml
+  - chat-web.yaml
+  - website.yaml
+  - ingress.yaml
+images:
+  - name: zairus-api
+    newName: ghcr.io/example/zairus-api
+    newTag: "0.1.0"
+  - name: zairus-mcp
+    newName: ghcr.io/example/zairus-mcp
+    newTag: "0.1.0"
+  - name: zairus-migrate
+    newName: ghcr.io/example/zairus-migrate
+    newTag: "0.1.0"
+  - name: zairus-chat-web
+    newName: ghcr.io/example/zairus-chat-web
+    newTag: "0.1.0"
+  - name: zairus-website
+    newName: ghcr.io/example/zairus-website
+    newTag: "0.1.0"

@@ -1,0 +1,39 @@
+# Dev/staging-grade Postgres. In production point KPI_DATABASE_URL at a managed instance and
+# drop this file from kustomization.yaml.
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres
+spec:
+  ports: [{ port: 5432, targetPort: 5432 }]
+  selector: { app: postgres }
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: postgres
+spec:
+  serviceName: postgres
+  replicas: 1
+  selector: { matchLabels: { app: postgres } }
+  template:
+    metadata: { labels: { app: postgres } }
+    spec:
+      containers:
+        - name: postgres
+          image: postgres:16-alpine
+          ports: [{ containerPort: 5432 }]
+          env:
+            - { name: POSTGRES_USER, value: kpi }
+            - { name: POSTGRES_DB, value: kpi }
+            - name: POSTGRES_PASSWORD
+              valueFrom: { secretKeyRef: { name: kpi-secrets, key: POSTGRES_PASSWORD } }
+          readinessProbe:
+            exec: { command: ["pg_isready", "-U", "kpi", "-d", "kpi"] }
+            periodSeconds: 5
+          volumeMounts: [{ name: data, mountPath: /var/lib/postgresql/data }]
+  volumeClaimTemplates:
+    - metadata: { name: data }
+      spec:
+        accessModes: [ReadWriteOnce]
+        resources: { requests: { storage: 5Gi } }

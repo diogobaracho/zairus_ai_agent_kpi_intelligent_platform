@@ -1,0 +1,21 @@
+# Runs once per rollout: Alembic upgrade + idempotent seed. Replace with a Helm hook or an
+# init container if your platform prefers; it must run before api/mcp roll out.
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: kpi-migrate
+spec:
+  backoffLimit: 3
+  ttlSecondsAfterFinished: 3600
+  template:
+    spec:
+      restartPolicy: OnFailure
+      securityContext: { runAsNonRoot: true }
+      containers:
+        - name: migrate
+          image: zairus-migrate
+          envFrom:
+            - configMapRef: { name: kpi-config }
+            - secretRef: { name: kpi-secrets }
+          env:
+            - { name: KPI_SEED_DEMO, value: "false" }

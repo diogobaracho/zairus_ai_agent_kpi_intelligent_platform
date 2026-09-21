@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: chat-web
+spec:
+  ports: [{ port: 8080, targetPort: 8080 }]
+  selector: { app: chat-web }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chat-web
+spec:
+  replicas: 1
+  selector: { matchLabels: { app: chat-web } }
+  template:
+    metadata: { labels: { app: chat-web } }
+    spec:
+      securityContext: { runAsNonRoot: true }
+      containers:
+        - name: chat-web
+          image: zairus-chat-web
+          ports: [{ containerPort: 8080 }]
+          envFrom:
+            - configMapRef: { name: kpi-config }
+            - secretRef: { name: kpi-secrets }
+          readinessProbe:
+            httpGet: { path: /, port: 8080 }
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: { path: /, port: 8080 }
+            periodSeconds: 20
+          resources:
+            requests: { cpu: 100m, memory: 256Mi }
+            limits: { cpu: "1", memory: 512Mi }

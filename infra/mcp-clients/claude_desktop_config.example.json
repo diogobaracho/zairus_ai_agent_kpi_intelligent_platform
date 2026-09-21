@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "zairus-kpi": {
+      "command": "uv",
+      "args": ["run", "--project", "services/mcp", "python", "-m", "kpi_mcp", "--transport", "stdio"],
+      "cwd": "/absolute/path/to/your/checkout",
+      "env": {
+        "KPI_DATABASE_URL": "postgresql+asyncpg://kpi:kpi@localhost:5432/kpi",
+        "KPI_LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}

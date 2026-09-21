@@ -1,0 +1,28 @@
+# Single-VM production overlay: pre-built images, no bind mounts, env from .env.production.
+#   docker compose --env-file .env.production -f docker-compose.yml -f docker-compose.prod.yml up -d
+# Put a TLS-terminating reverse proxy (Caddy, nginx, Traefik) in front of ports 3000/3001/8080.
+services:
+  postgres:
+    restart: unless-stopped
+  migrate:
+    image: ${REGISTRY:-ghcr.io/example}/zairus-migrate:${TAG:-0.1.0}
+    build: !reset null
+  mcp:
+    image: ${REGISTRY:-ghcr.io/example}/zairus-mcp:${TAG:-0.1.0}
+    build: !reset null
+    restart: unless-stopped
+  api:
+    image: ${REGISTRY:-ghcr.io/example}/zairus-api:${TAG:-0.1.0}
+    build: !reset null
+    restart: unless-stopped
+    environment:
+      KPI_ENV: production
+      KPI_CORS_ORIGINS: ${KPI_CORS_ORIGINS:-https://chat.example.com}
+  chat-web:
+    image: ${REGISTRY:-ghcr.io/example}/zairus-chat-web:${TAG:-0.1.0}
+    build: !reset null
+    restart: unless-stopped
+  website:
+    image: ${REGISTRY:-ghcr.io/example}/zairus-website:${TAG:-0.1.0}
+    build: !reset null
+    restart: unless-stopped

@@ -1,0 +1,67 @@
+# Zairus KPI Intelligent Platform — local stack. `make up` builds and starts everything.
+# Services are independent images; see docs/how-to/deploy-provider-agnostic.md.
+
+x-kpi-env: &kpi-env
+  KPI_ENV: ${KPI_ENV:-local}
+  KPI_LOG_LEVEL: ${KPI_LOG_LEVEL:-INFO}
+  KPI_DATABASE_URL: postgresql+asyncpg://kpi:kpi@postgres:5432/kpi
+  OTEL_SDK_DISABLED: ${OTEL_SDK_DISABLED:-true}
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: kpi
+      POSTGRES_PASSWORD: kpi
+      POSTGRES_DB: kpi
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kpi -d kpi"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  migrate:
+    build: { context: ., dockerfile: infra/docker/migrate/Dockerfile }
+    environment: *kpi-env
+    depends_on:
+      postgres: { condition: service_healthy }
+
+  mcp:
+    build: { context: ., dockerfile: infra/docker/mcp/Dockerfile }
+    environment:
+      <<: *kpi-env
+      KPI_MCP_TRANSPORT: http
+      KPI_MCP_HOST: 0.0.0.0
+      KPI_MCP_PORT: "8090"
+    ports: ["8090:8090"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+
+  api:
+    build: { context: ., dockerfile: infra/docker/api/Dockerfile }
+    environment:
+      <<: *kpi-env
+      KPI_API_PORT: "8080"
+      KPI_MCP_URL: http://mcp:8090/mcp
+      KPI_CORS_ORIGINS: ${KPI_CORS_ORIGINS:-http://localhost:3000,http://localhost:5173}
+      KPI_LLM_PROVIDER: ${KPI_LLM_PROVIDER:-stub}
+      KPI_LLM_MODEL: ${KPI_LLM_MODEL:-claude-opus-5}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    ports: ["8080:8080"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+      mcp: { condition: service_healthy }
+
+  chat-web:
+    build: { context: ., dockerfile: infra/docker/chat-web/Dockerfile }
+    ports: ["3000:8080"]
+    depends_on: [api]
+
+  website:
+    build: { context: ., dockerfile: infra/docker/website/Dockerfile }
+    ports: ["3001:8080"]
+
+volumes:
+  pgdata:

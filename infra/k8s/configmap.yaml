@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kpi-config
+data:
+  KPI_ENV: production
+  KPI_LOG_LEVEL: INFO
+  KPI_MCP_URL: http://mcp:8090/mcp
+  KPI_MCP_TRANSPORT: http
+  KPI_CORS_ORIGINS: https://chat.example.com
+  KPI_LLM_PROVIDER: stub          # set to anthropic and provide ANTHROPIC_API_KEY in the Secret
+  KPI_LLM_MODEL: claude-opus-5
+  KPI_RATE_LIMIT_RPS: "5"
+  KPI_RATE_LIMIT_BURST: "20"
+  OTEL_SDK_DISABLED: "true"

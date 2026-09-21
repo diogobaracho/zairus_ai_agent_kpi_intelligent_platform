@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: api
+spec:
+  ports: [{ port: 8080, targetPort: 8080 }]
+  selector: { app: api }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+spec:
+  replicas: 1   # the in-process rate limiter is per replica (ADR-0010)
+  selector: { matchLabels: { app: api } }
+  template:
+    metadata: { labels: { app: api } }
+    spec:
+      securityContext: { runAsNonRoot: true }
+      containers:
+        - name: api
+          image: zairus-api
+          ports: [{ containerPort: 8080 }]
+          envFrom:
+            - configMapRef: { name: kpi-config }
+            - secretRef: { name: kpi-secrets }
+          readinessProbe:
+            httpGet: { path: /readyz, port: 8080 }
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: { path: /healthz, port: 8080 }
+            periodSeconds: 20
+          resources:
+            requests: { cpu: 100m, memory: 256Mi }
+            limits: { cpu: "1", memory: 512Mi }

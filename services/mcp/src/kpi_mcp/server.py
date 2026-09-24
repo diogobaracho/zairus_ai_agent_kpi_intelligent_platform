@@ -11,6 +11,7 @@ from fastmcp.server.middleware.rate_limiting import RateLimitingMiddleware
 from starlette.requests import Request
 from starlette.responses import JSONResponse
 
+from kpi_core.branding import get_brand
 from kpi_core.db.engine import get_sessionmaker
 from kpi_core.repositories.protocols import AuditRepository, KpiRepository
 from kpi_core.repositories.sqlalchemy_repo import SqlAlchemyAuditRepository, SqlAlchemyKpiRepository
@@ -21,7 +22,7 @@ from kpi_mcp.middleware.trace import TraceMiddleware
 from kpi_mcp.settings import McpSettings
 from kpi_mcp.tools import register_tools
 
-INSTRUCTIONS = """ZairusData KPI estimates for public companies: quarterly historical estimates and
+INSTRUCTIONS = """{provider} KPI estimates for public companies: quarterly historical estimates and
 current quarter-to-date (QTD) snapshots. Typical flow: search_companies (find the ticker) ->
 list_company_kpis (see what is published) -> get_kpi_history or get_kpi_qtd. Every error is a JSON
 envelope with `code`, `message`, `suggestions` and `recovery_hint`; retry once with a suggestion
@@ -34,9 +35,10 @@ def create_server(
     settings: McpSettings | None = None,
 ) -> FastMCP:
     settings = settings or McpSettings()
+    brand = get_brand()
     mcp = FastMCP(
-        "zairus-kpi",
-        instructions=INSTRUCTIONS,
+        brand.mcp_server_name,
+        instructions=INSTRUCTIONS.format(provider=brand.data_provider),
         version=__version__,
         mask_error_details=True,
     )

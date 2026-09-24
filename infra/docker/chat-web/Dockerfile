@@ -5,6 +5,7 @@ RUN corepack enable
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 COPY apps/chat-web/package.json apps/chat-web/package.json
 RUN pnpm install --frozen-lockfile --filter chat-web...
+COPY brand.config.json ./
 COPY apps/chat-web apps/chat-web
 ARG VITE_API_BASE_URL=/api
 ENV VITE_API_BASE_URL=$VITE_API_BASE_URL

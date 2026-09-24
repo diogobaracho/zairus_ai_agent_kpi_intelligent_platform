@@ -5,6 +5,7 @@ RUN corepack enable
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 COPY apps/website/package.json apps/website/package.json
 RUN pnpm install --frozen-lockfile --filter website...
+COPY brand.config.json ./
 COPY apps/website apps/website
 ARG VITE_CHAT_URL=http://localhost:3000
 ARG VITE_API_DOCS_URL=http://localhost:8080/docs

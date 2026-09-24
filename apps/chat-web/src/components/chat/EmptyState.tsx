@@ -1,3 +1,5 @@
+import { brand } from '../../brand';
+
 const EXAMPLES = [
   "What's ORBY's QTD total revenue this quarter?",
   'Show ORBY total revenue history',
@@ -11,8 +13,8 @@ export function EmptyState({ onPick }: { onPick: (text: string) => void }) {
     <div className="card p-6 text-sm">
       <h2 className="text-base font-semibold">Ask the KPI assistant</h2>
       <p className="mt-1 text-ink-soft">
-        Answers come from ZairusData's KPI estimates through four MCP tools. Every tool call is
-        shown on the right, with its arguments and result, so you can verify how the answer was
+        Answers come from {brand.provider}'s KPI estimates through four MCP tools. Every tool call
+        is shown on the right, with its arguments and result, so you can verify how the answer was
         produced.
       </p>
       <ul className="mt-4 grid gap-2 sm:grid-cols-2">

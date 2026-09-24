@@ -18,6 +18,7 @@ COPY --from=builder --chown=kpi:kpi /app/.venv /app/.venv
 COPY --from=builder --chown=kpi:kpi /app/packages /app/packages
 COPY --from=builder --chown=kpi:kpi /app/services /app/services
 COPY --chown=kpi:kpi data /app/data
+COPY --chown=kpi:kpi brand.config.json /app/brand.config.json
 COPY --chown=kpi:kpi infra/docker/api/entrypoint.sh /app/entrypoint.sh
 RUN chmod +x /app/entrypoint.sh
 ENV PATH="/app/.venv/bin:$PATH" PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1

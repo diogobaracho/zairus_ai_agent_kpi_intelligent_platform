@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react';
 import { Section, SectionHeading } from '../components/layout/Section';
 import Button from '../components/ui/Button';
 import { site } from '../data/site';
+import { formatAddress } from '../brand';
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
@@ -16,6 +17,17 @@ export default function Contact() {
         title="Talk to the team"
         subtitle="Interested in connecting your own KPI data, a private deployment or the multi-tenant roadmap?"
       />
+      <address className="mx-auto mb-6 grid max-w-xl gap-1 text-center text-sm not-italic text-ink-soft">
+        <a className="font-medium text-brand" href={`mailto:${site.contact.email}`}>
+          {site.contact.email}
+        </a>
+        {site.contact.phone && (
+          <a href={`tel:${site.contact.phone.replace(/[^+\d]/g, '')}`}>{site.contact.phone}</a>
+        )}
+        {formatAddress(site.contact.address).map((line) => (
+          <span key={line}>{line}</span>
+        ))}
+      </address>
       <div className="mx-auto max-w-xl rounded-2xl border border-line bg-white p-6 shadow-card">
         {sent ? (
           <p role="status" className="text-ink">

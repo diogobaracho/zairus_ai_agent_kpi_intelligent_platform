@@ -54,9 +54,7 @@ class InMemoryKpiRepository:
                     unit=row.unit,
                     unit_kind=row.unit_kind,
                     scale=row.scale,
-                    description=(
-                        f"{row.kpi_display_name} in {row.unit}, estimated quarterly by ZairusData."
-                    ),
+                    description=f"{row.kpi_display_name} in {row.unit}, estimated quarterly.",
                 ),
             )
             key = (row.ticker, row.kpi_slug)

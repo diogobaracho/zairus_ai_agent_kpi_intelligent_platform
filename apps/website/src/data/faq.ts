@@ -1,10 +1,10 @@
+import { brand } from '../brand';
 import type { FaqItem } from '../types/content';
 
 export const faq: FaqItem[] = [
   {
     question: 'What data does the platform serve?',
-    answer:
-      "ZairusData's quarterly KPI estimates for public companies: completed-quarter (historical) estimates and quarter-to-date snapshots that update at most daily.",
+    answer: `${brand.dataProvider}'s quarterly KPI estimates for public companies: completed-quarter (historical) estimates and quarter-to-date snapshots that update at most daily.`,
   },
   {
     question: 'How is a chat answer produced?',

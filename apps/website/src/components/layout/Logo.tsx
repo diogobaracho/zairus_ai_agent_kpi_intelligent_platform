@@ -1,3 +1,5 @@
+import { brand } from '../../brand';
+
 export default function Logo({ light = false }: { light?: boolean }) {
   return (
     <span className="inline-flex items-center gap-2">
@@ -13,7 +15,8 @@ export default function Logo({ light = false }: { light?: boolean }) {
         />
       </svg>
       <span className={`font-display text-xl font-bold ${light ? 'text-white' : 'text-ink'}`}>
-        Zairus<span className="text-brand"> KPI</span>
+        {brand.brand}
+        <span className="text-brand"> KPI</span>
       </span>
     </span>
   );

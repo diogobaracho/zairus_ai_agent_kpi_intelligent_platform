@@ -3,6 +3,7 @@ import { Mail } from 'lucide-react';
 import Logo from './Logo';
 import Button from '../ui/Button';
 import { footerColumns, site } from '../../data/site';
+import { hasChat } from '../../brand';
 
 export default function Footer() {
   return (
@@ -37,15 +38,17 @@ export default function Footer() {
             </ul>
           </div>
         ))}
-        <div className="rounded-2xl bg-white/5 p-6">
-          <h4 className="font-display text-lg font-semibold">Try it in a minute</h4>
-          <p className="mt-2 text-sm text-white/70">
-            Ask a question in the chat and watch the tool calls appear next to the answer.
-          </p>
-          <Button to={site.chatUrl} size="sm" className="mt-4 w-full">
-            Open the chat
-          </Button>
-        </div>
+        {hasChat && (
+          <div className="rounded-2xl bg-white/5 p-6">
+            <h4 className="font-display text-lg font-semibold">Try it in a minute</h4>
+            <p className="mt-2 text-sm text-white/70">
+              Ask a question in the chat and watch the tool calls appear next to the answer.
+            </p>
+            <Button to={site.chatUrl} size="sm" className="mt-4 w-full">
+              Open the chat
+            </Button>
+          </div>
+        )}
       </div>
       <div className="border-t border-white/10 py-5 text-center text-xs text-white/60">
         © {site.year} {site.product}. Sample data and figures on this site are illustrative.

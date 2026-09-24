@@ -5,7 +5,7 @@ import { streamChat } from '../api/sse';
 import type { SseEvent } from '../api/types';
 import { chatReducer, initialState, type ChatState, type UiMessage } from './chatReducer';
 
-const STORAGE_KEY = 'zairus.chat.v1';
+const STORAGE_KEY = 'kpi.chat.v1';
 
 import { ChatContext } from './context';
 

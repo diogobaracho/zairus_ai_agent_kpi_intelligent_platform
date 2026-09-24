@@ -98,7 +98,7 @@ describe('ChatPage', () => {
     ).toBeInTheDocument();
     expect(screen.getByText('ticker=ORBY')).toBeInTheDocument();
     expect(screen.getByText('trace tr0000000001')).toBeInTheDocument();
-    expect(JSON.parse(sessionStorage.getItem('zairus.chat.v1') ?? '{}').conversationId).toBe('c1');
+    expect(JSON.parse(sessionStorage.getItem('kpi.chat.v1') ?? '{}').conversationId).toBe('c1');
   });
 
   it('shows an error banner with code and trace id when the request is rejected', async () => {

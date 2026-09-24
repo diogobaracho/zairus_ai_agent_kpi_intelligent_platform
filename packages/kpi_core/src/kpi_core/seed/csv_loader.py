@@ -1,4 +1,4 @@
-"""Parse the ZairusData KPI CSV into validated rows (pure; reused by the in-memory repository)."""
+"""Parse the KPI CSV into validated rows (pure; reused by the in-memory repository)."""
 
 from __future__ import annotations
 

@@ -8,13 +8,13 @@ import {
   Timer,
   Waypoints,
 } from 'lucide-react';
+import { brand } from '../brand';
 import type { Capability, Guardrail, Metric, Step, TraceStep } from '../types/content';
 
 export const hero = {
   eyebrow: 'For public investors and their AI agents',
   title: 'Ask your KPI data. Get answers you can audit.',
-  description:
-    "Zairus turns ZairusData's quarterly KPI estimates into answers: historical trends, the current quarter-to-date estimate, and a visible record of every tool the assistant used to get there.",
+  description: `${brand.brand} turns ${brand.dataProvider}'s quarterly KPI estimates into answers: historical trends, the current quarter-to-date estimate, and a visible record of every tool the assistant used to get there.`,
   primaryCta: 'Open the chat demo',
   secondaryCta: 'Connect your AI client',
   badges: [

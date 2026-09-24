@@ -3,6 +3,7 @@ import Button from '../components/ui/Button';
 import CodeBlock from '../components/ui/CodeBlock';
 import { quickstart, samples, tools } from '../data/developers';
 import { site } from '../data/site';
+import { hasApiDocs } from '../brand';
 
 export default function Developers() {
   return (
@@ -59,9 +60,11 @@ export default function Developers() {
         <div className="mx-auto max-w-3xl">
           <CodeBlock {...samples[2]} />
         </div>
-        <div className="mt-8 text-center">
-          <Button to={site.apiDocsUrl}>Open the API docs</Button>
-        </div>
+        {hasApiDocs && (
+          <div className="mt-8 text-center">
+            <Button to={site.apiDocsUrl}>Open the API docs</Button>
+          </div>
+        )}
       </Section>
     </>
   );

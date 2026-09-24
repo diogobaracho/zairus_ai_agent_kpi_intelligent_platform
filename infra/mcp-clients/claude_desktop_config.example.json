@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "zairus-kpi": {
+    "kpi-platform": {
       "command": "uv",
       "args": ["run", "--project", "services/mcp", "python", "-m", "kpi_mcp", "--transport", "stdio"],
       "cwd": "/absolute/path/to/your/checkout",

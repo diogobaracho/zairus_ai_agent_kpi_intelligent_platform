@@ -32,9 +32,7 @@ describe('ExplorePage', () => {
         <ExplorePage />
       </MemoryRouter>,
     );
-    await waitFor(() =>
-      expect(screen.getByText('Orbitly Analytics')).toBeInTheDocument(),
-    );
+    await waitFor(() => expect(screen.getByText('Orbitly Analytics')).toBeInTheDocument());
     expect(screen.getByRole('option', { name: /Software \(3\)/ })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /ORBY/ })).toHaveAttribute('href', '/explore/ORBY');
   });

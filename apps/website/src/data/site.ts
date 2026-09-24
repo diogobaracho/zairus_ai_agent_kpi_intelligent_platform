@@ -1,15 +1,15 @@
+import { brand, hasApiDocs, hasChat } from '../brand';
 import type { NavItem } from '../types/content';
 
 export const site = {
-  brand: 'Zairus',
-  product: 'Zairus KPI Intelligent Platform',
-  provider: 'ZairusData',
+  brand: brand.brand,
+  product: brand.product,
+  provider: brand.dataProvider,
   tagline: 'KPI estimates for public investors and the AI agents that work for them.',
-  chatUrl: (import.meta.env.VITE_CHAT_URL as string | undefined) ?? 'http://localhost:3000',
-  apiDocsUrl:
-    (import.meta.env.VITE_API_DOCS_URL as string | undefined) ?? 'http://localhost:8080/docs',
+  chatUrl: brand.chatUrl,
+  apiDocsUrl: brand.apiDocsUrl,
   repoDocsUrl: '/developers',
-  contact: { email: 'platform@zairus.example.com' },
+  contact: brand.contact,
   year: new Date().getFullYear(),
 };
 
@@ -43,8 +43,8 @@ export const footerColumns: { title: string; links: NavItem[] }[] = [
   {
     title: 'Get started',
     links: [
-      { label: 'Open the chat', to: site.chatUrl },
-      { label: 'API docs', to: site.apiDocsUrl },
+      ...(hasChat ? [{ label: 'Open the chat', to: site.chatUrl }] : []),
+      ...(hasApiDocs ? [{ label: 'API docs', to: site.apiDocsUrl }] : []),
       { label: 'Connect Claude Desktop', to: '/developers#connect' },
       { label: 'Contact', to: '/contact' },
     ],

@@ -3,6 +3,7 @@ import Button from '../components/ui/Button';
 import AgentChatMockup from '../components/art/AgentChatMockup';
 import { hero } from '../data/home';
 import { site } from '../data/site';
+import { hasChat } from '../brand';
 
 export default function Hero() {
   return (
@@ -15,9 +16,11 @@ export default function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-lg text-ink-soft">{hero.description}</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Button to={site.chatUrl} size="lg">
-              {hero.primaryCta}
-            </Button>
+            {hasChat && (
+              <Button to={site.chatUrl} size="lg">
+                {hero.primaryCta}
+              </Button>
+            )}
             <Button to="/developers#connect" variant="ghost" size="lg">
               {hero.secondaryCta}
             </Button>

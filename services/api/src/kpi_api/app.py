@@ -25,6 +25,7 @@ from kpi_api.middleware.body_limit import MaxBodySizeMiddleware
 from kpi_api.middleware.rate_limit import TokenBucketRateLimitMiddleware
 from kpi_api.routers import audit, chat, companies, estimates, health, kpis, meta, sectors
 from kpi_api.settings import ApiSettings
+from kpi_core.branding import get_brand
 from kpi_core.db.engine import dispose_engines, get_sessionmaker
 from kpi_core.obs.correlation import CorrelationIdMiddleware
 from kpi_core.obs.logging import configure_logging
@@ -74,10 +75,13 @@ def create_app(
         yield
         await dispose_engines()
 
+    brand = get_brand()
     app = FastAPI(
-        title="Zairus KPI Intelligent Platform API",
+        title=f"{brand.product} API",
         version=__version__,
-        description="REST access to ZairusData KPI estimates and the explainable chat agent.",
+        description=(
+            f"REST access to {brand.data_provider} KPI estimates and the explainable chat agent."
+        ),
         lifespan=lifespan,
     )
     app.state.settings = settings

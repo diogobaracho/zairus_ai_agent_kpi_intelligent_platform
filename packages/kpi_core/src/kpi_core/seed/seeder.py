@@ -35,7 +35,7 @@ async def seed_database(session: AsyncSession, rows: list[SeedRow]) -> SeedRepor
             unit=row.unit,
             unit_kind=row.unit_kind,
             scale=row.scale,
-            description=f"{row.kpi_display_name} in {row.unit}, estimated quarterly by ZairusData.",
+            description=f"{row.kpi_display_name} in {row.unit}, estimated quarterly.",
         )
         stmt = stmt.on_conflict_do_update(
             index_elements=[KpiRow.slug],

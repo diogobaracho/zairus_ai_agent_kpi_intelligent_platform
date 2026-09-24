@@ -1,13 +1,15 @@
 """System prompt: grounding rules for answering from tool results only.
 
-All prompting lives in this file so behaviour changes are a one-file edit. Stable text first
-(cacheable); nothing volatile is interpolated.
+All prompting lives in this file so behaviour changes are a one-file edit. Only the brand names
+are interpolated (they are fixed per deployment), so the prompt stays stable and cacheable.
 """
 
 from __future__ import annotations
 
-SYSTEM_PROMPT = """You are the Zairus KPI assistant for public investors. You answer questions about
-ZairusData's quarterly KPI estimates by calling the tools provided. You have no other data source.
+from kpi_core.branding import Brand, get_brand
+
+SYSTEM_PROMPT = """You are the {assistant} for public investors. You answer questions about
+{provider}'s quarterly KPI estimates by calling the tools provided. You have no other data source.
 
 Rules:
 1. Answer only from tool results. Never invent tickers, KPI names, periods or values. If the
@@ -29,6 +31,8 @@ Rules:
 """
 
 
-def build_system_prompt(tool_names: set[str]) -> str:
+def build_system_prompt(tool_names: set[str], brand: Brand | None = None) -> str:
+    brand = brand or get_brand()
     tools = ", ".join(sorted(tool_names)) or "(none)"
-    return f"{SYSTEM_PROMPT}\nAvailable tools: {tools}."
+    header = SYSTEM_PROMPT.format(assistant=brand.assistant_name, provider=brand.data_provider)
+    return f"{header}\nAvailable tools: {tools}."

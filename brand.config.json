@@ -1,0 +1,27 @@
+{
+  "brand": "Zairus",
+  "product": "Zairus KPI Intelligent Platform",
+  "dataProvider": "ZairusData",
+  "assistantName": "Zairus KPI assistant",
+  "mcpServerName": "zairus-kpi",
+  "contact": {
+    "email": "hello@zairus.example.com",
+    "phone": "+1 (555) 010-2030",
+    "address": {
+      "street": "100 Example Avenue, Suite 400",
+      "city": "Springfield",
+      "region": "ST",
+      "postalCode": "00000",
+      "country": "United States"
+    }
+  },
+  "social": {
+    "github": "https://github.com/your-org/your-repo",
+    "linkedin": ""
+  },
+  "links": {
+    "siteUrl": "https://zairus.example.com",
+    "chatUrl": "http://localhost:3000",
+    "apiDocsUrl": "http://localhost:8080/docs"
+  }
+}

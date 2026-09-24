@@ -2,6 +2,7 @@ import { Section, SectionHeading } from '../components/layout/Section';
 import Button from '../components/ui/Button';
 import { steps } from '../data/home';
 import { site } from '../data/site';
+import { hasChat } from '../brand';
 
 export default function HowItWorks() {
   return (
@@ -21,7 +22,7 @@ export default function HowItWorks() {
         ))}
       </ol>
       <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
-        <Button to={site.chatUrl}>Open the chat demo</Button>
+        {hasChat && <Button to={site.chatUrl}>Open the chat demo</Button>}
         <Button to="/platform" variant="ghost">
           See the architecture
         </Button>

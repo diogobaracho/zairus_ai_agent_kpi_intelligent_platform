@@ -4,6 +4,7 @@ import { Menu, X } from 'lucide-react';
 import Logo from './Logo';
 import Button from '../ui/Button';
 import { nav, site } from '../../data/site';
+import { hasApiDocs, hasChat } from '../../brand';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -12,7 +13,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-line/70 bg-paper/90 backdrop-blur">
       <div className="container-site flex h-[72px] items-center justify-between">
-        <Link to="/" aria-label="Zairus — home">
+        <Link to="/" aria-label={`${site.brand} — home`}>
           <Logo />
         </Link>
         <nav className="hidden items-center gap-8 lg:flex" aria-label="Main">
@@ -23,17 +24,21 @@ export default function Header() {
           ))}
         </nav>
         <div className="hidden items-center gap-3 lg:flex">
-          <a
-            href={site.apiDocsUrl}
-            className="text-sm font-medium text-ink hover:text-brand"
-            target="_blank"
-            rel="noreferrer"
-          >
-            API docs
-          </a>
-          <Button to={site.chatUrl} size="sm">
-            Open the chat
-          </Button>
+          {hasApiDocs && (
+            <a
+              href={site.apiDocsUrl}
+              className="text-sm font-medium text-ink hover:text-brand"
+              target="_blank"
+              rel="noreferrer"
+            >
+              API docs
+            </a>
+          )}
+          {hasChat && (
+            <Button to={site.chatUrl} size="sm">
+              Open the chat
+            </Button>
+          )}
         </div>
         <button
           className="rounded-lg p-2 text-ink lg:hidden"
@@ -58,9 +63,11 @@ export default function Header() {
                 {item.label}
               </NavLink>
             ))}
-            <Button to={site.chatUrl} size="sm" className="w-full">
-              Open the chat
-            </Button>
+            {hasChat && (
+              <Button to={site.chatUrl} size="sm" className="w-full">
+                Open the chat
+              </Button>
+            )}
           </div>
         </div>
       )}

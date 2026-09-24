@@ -1,3 +1,4 @@
+import { brand } from '../brand';
 import type { CodeSample, Tool } from '../types/content';
 
 export const tools: Tool[] = [
@@ -34,7 +35,7 @@ export const samples: CodeSample[] = [
     language: 'json',
     code: `{
   "mcpServers": {
-    "zairus-kpi": {
+    "${brand.mcpServerName}": {
       "command": "uv",
       "args": ["run", "--project", "services/mcp", "python", "-m", "kpi_mcp", "--transport", "stdio"],
       "cwd": "/path/to/your/checkout",
@@ -46,7 +47,7 @@ export const samples: CodeSample[] = [
   {
     title: 'Remote MCP over HTTP',
     language: 'json',
-    code: `{ "mcpServers": { "zairus-kpi": { "url": "http://localhost:8090/mcp" } } }`,
+    code: `{ "mcpServers": { "${brand.mcpServerName}": { "url": "http://localhost:8090/mcp" } } }`,
   },
   {
     title: 'REST',

@@ -1,4 +1,6 @@
-import { trace } from '../../data/home';
+import { useIntl } from 'react-intl';
+import { dataset, trace } from '../../data/home';
+import { useT } from '../../i18n/useT';
 
 const tone = {
   ok: 'bg-green-50 text-green-700',
@@ -6,45 +8,70 @@ const tone = {
   rejected: 'bg-amber-50 text-amber-700',
 };
 
+// ORBY total revenue in the generated sample dataset ($MM).
+const revenue = { first: 222.97, last: 387.23, qtd: 335.94 };
+
 export default function AgentChatMockup() {
+  const t = useT();
+  const intl = useIntl();
+  const money = (v: number) =>
+    `${intl.formatNumber(v, { style: 'currency', currency: 'USD', maximumFractionDigits: 2 })}MM`;
+  const growth = intl.formatNumber(revenue.last / revenue.first - 1, {
+    style: 'percent',
+    maximumFractionDigits: 1,
+    signDisplay: 'always',
+  });
   return (
     <div
       className="animate-rise rounded-3xl border border-line bg-white p-4 shadow-float md:p-6"
-      aria-label="Chat mockup"
+      aria-label={t('mockup.chatLabel')}
     >
       <div className="grid gap-4 md:grid-cols-[1.2fr_1fr]">
         <div className="space-y-3 text-sm">
           <div className="ml-auto max-w-[85%] rounded-2xl bg-brand px-4 py-2 text-white">
-            Show ORBYY revenue history and the current quarter
+            {t('mockup.question')}
           </div>
           <div className="max-w-[92%] rounded-2xl border border-line bg-paper px-4 py-3 text-ink">
             <p>
-              <span className="font-semibold">ORBY Total Revenue ($MM)</span>: 2023Q1 = $222.97MM …
-              2026Q2 = $387.23MM (14 quarters, +73.7% overall).
+              <span className="font-semibold">ORBY Total Revenue ($MM)</span>:{' '}
+              {t('mockup.answerHistory', {
+                from: dataset.firstQuarter,
+                first: money(revenue.first),
+                to: dataset.lastQuarter,
+                last: money(revenue.last),
+                count: dataset.quarters,
+                growth,
+              })}
             </p>
             <p className="mt-1">
-              QTD 2026Q3 as of <span className="font-mono">2026-09-15</span>: $335.94MM.
+              {t('mockup.answerQtd', {
+                period: dataset.qtdQuarter,
+                asOf: dataset.qtdAsOf,
+                value: money(revenue.qtd),
+              })}
             </p>
-            <p className="mt-2 text-xs text-ink-soft">
-              I first tried ticker ORBYY, which does not exist; the tool suggested ORBY.
-            </p>
+            <p className="mt-2 text-xs text-ink-soft">{t('mockup.answerRecovery')}</p>
           </div>
         </div>
         <div className="rounded-2xl border border-line bg-paper p-3 text-xs">
           <div className="mb-2 flex items-center justify-between font-semibold">
-            <span>Tool execution</span>
-            <span className="text-ink-soft">{trace.length} calls</span>
+            <span>{t('mockup.toolExecution')}</span>
+            <span className="text-ink-soft">{t('mockup.calls', { count: trace.length })}</span>
           </div>
           <ol className="space-y-2">
-            {trace.map((t, i) => (
+            {trace.map((step, i) => (
               <li key={i} className="rounded-xl border border-line bg-white p-2">
                 <div className="flex items-center gap-2">
-                  <span className="font-mono font-semibold">{t.tool}</span>
-                  <span className={`rounded-full px-2 py-0.5 ${tone[t.status]}`}>{t.status}</span>
-                  <span className="ml-auto text-ink-soft">{t.ms} ms</span>
+                  <span className="font-mono font-semibold">{step.tool}</span>
+                  <span className={`rounded-full px-2 py-0.5 ${tone[step.status]}`}>
+                    {step.status}
+                  </span>
+                  <span className="ml-auto text-ink-soft">{step.ms} ms</span>
                 </div>
-                <div className="mt-1 font-mono text-[11px] text-ink-soft">{t.args}</div>
-                {t.note && <div className="mt-1 text-[11px] text-ink-soft">{t.note}</div>}
+                <div className="mt-1 font-mono text-[11px] text-ink-soft">{step.args}</div>
+                {step.note && (
+                  <div className="mt-1 text-[11px] text-ink-soft">{t(step.note, step.values)}</div>
+                )}
               </li>
             ))}
           </ol>

@@ -2,27 +2,29 @@ import { Section, SectionHeading } from '../components/layout/Section';
 import ArchitectureArt from '../components/art/ArchitectureArt';
 import Card from '../components/ui/Card';
 import MetricStat from '../components/ui/MetricStat';
-import { layers, observability, tenancy } from '../data/platform';
+import { layerItems, layers, observability, tenancy } from '../data/platform';
+import { useT } from '../i18n/useT';
 
 export default function Platform() {
+  const t = useT();
   return (
     <>
       <Section>
         <SectionHeading
-          eyebrow="Platform"
-          title="One domain layer, three protocol surfaces"
-          subtitle="REST, MCP and the chat agent are thin adapters over the same services, so validation, suggestions and error semantics are defined once."
+          eyebrow={t('platform.eyebrow')}
+          title={t('platform.title')}
+          subtitle={t('platform.subtitle')}
         />
         <div className="rounded-3xl border border-line bg-white p-4 shadow-card md:p-8">
           <ArchitectureArt />
         </div>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {layers.map((l) => (
-            <Card key={l.name}>
-              <h3 className="text-lg font-semibold">{l.name}</h3>
+            <Card key={l}>
+              <h3 className="text-lg font-semibold">{t(`platform.layers.${l}.name`)}</h3>
               <ul className="mt-3 space-y-2 text-sm text-ink-soft">
-                {l.items.map((i) => (
-                  <li key={i}>• {i}</li>
+                {layerItems.map((i) => (
+                  <li key={i}>• {t(`platform.layers.${l}.${i}`)}</li>
                 ))}
               </ul>
             </Card>
@@ -31,13 +33,13 @@ export default function Platform() {
       </Section>
       <Section tone="mist" id="tenancy">
         <SectionHeading
-          eyebrow="Multi-tenant ready"
-          title="Identity from the server, never from the model"
+          eyebrow={t('platform.tenancy.eyebrow')}
+          title={t('platform.tenancy.title')}
         />
         <ul className="mx-auto max-w-3xl space-y-3 text-ink-soft">
-          {tenancy.map((t) => (
-            <li key={t} className="rounded-2xl bg-white p-4 shadow-card">
-              {t}
+          {tenancy.map((i) => (
+            <li key={i} className="rounded-2xl bg-white p-4 shadow-card">
+              {t(`platform.tenancy.${i}`)}
             </li>
           ))}
         </ul>
@@ -45,13 +47,19 @@ export default function Platform() {
       <Section tone="ink" id="observability">
         <SectionHeading
           dark
-          eyebrow="Observability"
-          title="Traceable end to end"
-          subtitle="Structured JSON logs, an audit table for tool calls, health and readiness endpoints, optional OpenTelemetry export."
+          eyebrow={t('platform.observability.eyebrow')}
+          title={t('platform.observability.title')}
+          subtitle={t('platform.observability.subtitle')}
         />
         <div className="grid gap-4 sm:grid-cols-3">
           {observability.map((m) => (
-            <MetricStat key={m.label} {...m} dark />
+            <MetricStat
+              key={m.id}
+              value={m.value}
+              label={t(`platform.observability.${m.id}.label`)}
+              detail={t(`platform.observability.${m.id}.detail`)}
+              dark
+            />
           ))}
         </div>
       </Section>

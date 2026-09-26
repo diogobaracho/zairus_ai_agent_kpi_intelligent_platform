@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "tagline": "Estimativas de KPI para investidores e para os agentes de IA que trabalham para eles.",
+    "homeLabel": "{brand} — início",
+    "language": "Idioma"
+  },
+  "nav": {
+    "product": "Produto",
+    "platform": "Plataforma",
+    "developers": "Desenvolvedores",
+    "security": "Segurança",
+    "contact": "Contato",
+    "apiDocs": "Docs da API",
+    "openChat": "Abrir o chat",
+    "toggleMenu": "Abrir ou fechar o menu"
+  },
+  "footer": {
+    "product": "Produto",
+    "platform": "Plataforma",
+    "getStarted": "Comece agora",
+    "howItWorks": "Como funciona",
+    "explainable": "Respostas explicáveis",
+    "coverage": "Cobertura",
+    "faq": "Perguntas frequentes",
+    "architecture": "Arquitetura",
+    "mcpTools": "Ferramentas MCP",
+    "restApi": "API REST",
+    "guardrails": "Salvaguardas",
+    "connectClaude": "Conectar o Claude Desktop",
+    "tryTitle": "Experimente em um minuto",
+    "tryText": "Faça uma pergunta no chat e veja as chamadas de ferramenta aparecerem ao lado da resposta.",
+    "legal": "© {year} {product}. Os dados e números deste site são ilustrativos."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Para investidores e seus agentes de IA",
+      "title": "Pergunte aos seus KPIs. Receba respostas auditáveis.",
+      "description": "{brand} transforma as estimativas trimestrais de KPI da {provider} em respostas: tendências históricas, a estimativa do trimestre corrente (QTD) e o registro visível de cada ferramenta que o assistente usou para chegar lá.",
+      "primaryCta": "Abrir a demo do chat",
+      "secondaryCta": "Conectar seu cliente de IA",
+      "badges": {
+        "estimates": "Estimativas históricas + QTD",
+        "toolCalls": "Toda chamada de ferramenta visível",
+        "mcp": "Servidor MCP para Claude Desktop e Cursor",
+        "local": "Roda localmente com um comando"
+      }
+    },
+    "trustBar": { "builtWith": "Feito com", "claude": "Modelos Claude" },
+    "howItWorks": {
+      "eyebrow": "Como funciona",
+      "title": "Da pergunta a uma resposta auditável",
+      "subtitle": "Pensado para investidores com pouco tempo: uma pergunta, uma chamada de ferramenta bem escolhida, uma resposta com fontes.",
+      "architecture": "Ver a arquitetura"
+    },
+    "steps": {
+      "ask": {
+        "title": "Pergunte em linguagem natural",
+        "description": "\"Como está o ARR da ORBY neste trimestre?\" Não precisa saber tickers nem códigos de KPI; o assistente encontra."
+      },
+      "pick": {
+        "title": "O agente escolhe uma ferramenta",
+        "description": "Quatro ferramentas MCP somente leitura cobrem descoberta, catálogo de KPIs, histórico e estimativas do trimestre corrente. Palpites errados voltam com sugestões."
+      },
+      "govern": {
+        "title": "Dados governados respondem",
+        "description": "As ferramentas chamam uma única camada de domínio sobre Postgres. O modelo nunca vê SQL, ids ou tenants; apenas resultados validados e estruturados."
+      },
+      "evidence": {
+        "title": "Você vê as evidências",
+        "description": "A resposta cita ticker, KPI, unidade, período e data as_of, e o painel mostra cada chamada com argumentos, status e duração."
+      }
+    },
+    "capabilities": {
+      "eyebrow": "Recursos",
+      "title": "Três interfaces, uma única fonte de verdade",
+      "subtitle": "Uma API REST para produtos, um servidor MCP para agentes de IA e um chat explicável para pessoas, todos sobre a mesma camada de dados governada.",
+      "discovery": {
+        "title": "Descoberta de empresas e KPIs",
+        "b1": "Busca por ticker, parte do nome ou setor",
+        "b2": "Metadados de KPI normalizados: slug, unidade, cobertura",
+        "b3": "Erros de digitação respondidos com sugestões"
+      },
+      "history": {
+        "title": "Histórico vs trimestre corrente",
+        "b1": "Trimestres fechados em ordem cronológica",
+        "b2": "Snapshots QTD com datas as_of, mantidos à parte",
+        "b3": "Comparação com o trimestre anterior incluída"
+      },
+      "chat": {
+        "title": "Chat explicável",
+        "b1": "Transmite a resposta enquanto ela é gerada",
+        "b2": "Linha do tempo das ferramentas com argumentos e resultados",
+        "b3": "Falhas expostas, nunca escondidas"
+      },
+      "mcp": {
+        "title": "Servidor MCP para agentes",
+        "b1": "Quatro ferramentas autodescritivas",
+        "b2": "stdio para Claude Desktop e Cursor, HTTP para serviços",
+        "b3": "A mesma trilha de auditoria para qualquer cliente"
+      },
+      "rest": {
+        "title": "API REST para produtos",
+        "b1": "JSON tipado e validado",
+        "b2": "Erros problem+json consistentes, com dicas",
+        "b3": "Documento OpenAPI incluído"
+      },
+      "audit": {
+        "title": "Auditoria de tudo",
+        "b1": "Um trace id do navegador até a linha no banco",
+        "b2": "Nome da ferramenta, argumentos, duração, status, erro",
+        "b3": "Reconstrua qualquer resposta depois"
+      }
+    },
+    "explainability": {
+      "eyebrow": "Explicabilidade",
+      "title": "Toda resposta traz suas evidências",
+      "subtitle": "Quais ferramentas rodaram, com quais argumentos, o que voltou e quanto tempo levou. Um único trace id liga o chat, os logs da API, os logs do MCP e a tabela de auditoria.",
+      "footnote": "Falhas aparecem, não são escondidas: um ticker errado surge como um passo com erro e a sugestão que o assistente usou para se recuperar."
+    },
+    "coverage": {
+      "eyebrow": "Cobertura",
+      "title": "O que há no conjunto de dados de exemplo",
+      "subtitle": "Estimativas ilustrativas da {provider}: o suficiente para explorar tendências, comparar trimestres e testar cada modo de falha.",
+      "companies": { "label": "empresas", "detail": "em {sectors} setores no conjunto de exemplo" },
+      "kpis": { "label": "KPIs", "detail": "receita, ARR, retenção, churn, GMV, usuários e mais" },
+      "quarters": {
+        "label": "trimestres de histórico",
+        "detail": "de {from} a {to}, mais snapshots QTD"
+      },
+      "audited": {
+        "label": "das chamadas auditadas",
+        "detail": "ferramenta, argumentos, duração, status, trace id"
+      }
+    },
+    "developers": {
+      "eyebrow": "Para desenvolvedores",
+      "title": "Quatro ferramentas que um agente entende de primeira",
+      "subtitle": "Nomes autodescritivos, parâmetros escalares, apenas identificadores públicos, JSON estruturado na entrada e na saída.",
+      "tool": "ferramenta",
+      "whenToUse": "quando usar",
+      "cta": "Conectar Claude Desktop, Cursor ou REST"
+    },
+    "guardrails": {
+      "eyebrow": "Salvaguardas",
+      "title": "Projetado em torno de como chamadas de ferramenta por LLMs falham",
+      "subtitle": "Identificadores alucinados, loops, resultados grandes demais e recusas: cada um tem uma proteção nomeada e um teste.",
+      "database": {
+        "title": "O modelo nunca toca no banco de dados",
+        "description": "As respostas vêm apenas de quatro ferramentas tipadas e somente leitura. Nenhum SQL, nenhum id, nenhum campo de tenant em qualquer schema."
+      },
+      "recorded": {
+        "title": "Toda chamada é registrada",
+        "description": "Um trace id acompanha a requisição do navegador até a linha de auditoria e os logs dos dois serviços."
+      },
+      "budgets": {
+        "title": "Orçamentos e timeouts",
+        "description": "Limite de iterações, timeouts por ferramenta, detecção de chamadas duplicadas e limite de tamanho de resultado impedem loops descontrolados."
+      },
+      "recover": {
+        "title": "Erros dos quais um agente consegue se recuperar",
+        "description": "Envelopes estruturados com sugestões e uma dica de recuperação transformam um erro de digitação em uma nova tentativa, não em uma falha."
+      }
+    },
+    "faq": {
+      "eyebrow": "Perguntas frequentes",
+      "title": "O que investidores e engenheiros perguntam"
+    },
+    "finalCta": {
+      "title": "Veja cada passo por trás da resposta.",
+      "description": "Suba o ambiente localmente com um comando, faça uma pergunta no chat ou aponte o Claude Desktop para o servidor MCP.",
+      "primary": "Abrir a demo do chat",
+      "secondary": "Ler o guia do desenvolvedor"
+    }
+  },
+  "mockup": {
+    "chatLabel": "Exemplo do chat",
+    "question": "Mostre o histórico de receita da ORBYY e o trimestre atual",
+    "answerHistory": "{from} = {first} … {to} = {last} ({count} trimestres, {growth} no período).",
+    "answerQtd": "QTD {period} em {asOf}: {value}.",
+    "answerRecovery": "Primeiro tentei o ticker ORBYY, que não existe; a ferramenta sugeriu ORBY.",
+    "toolExecution": "Execução de ferramentas",
+    "calls": "{count, plural, one {# chamada} other {# chamadas}}",
+    "notFound": "company_not_found → sugestão: ORBY",
+    "historyNote": "{count} trimestres, {from}..{to}",
+    "qtdNote": "{period} em {asOf}",
+    "timelineLabel": "Exemplo de linha do tempo do trace",
+    "time": "hora",
+    "where": "onde",
+    "event": "evento"
+  },
+  "architecture": {
+    "label": "Arquitetura: clientes, adaptadores, camada de domínio, Postgres",
+    "chat": "App web de chat",
+    "desktop": "Claude Desktop / Cursor",
+    "scripts": "Dashboards e scripts",
+    "api": "Serviço de API (FastAPI)",
+    "apiSub": "REST /v1 · loop do agente · proteções · SSE · auditoria",
+    "mcp": "Servidor MCP (FastMCP)",
+    "mcpSub": "4 ferramentas somente leitura · rate limit · trace · auditoria",
+    "core": "kpi_core — uma camada de domínio: serviços · repositórios · erros · RequestContext",
+    "llm": "Provedor de LLM ↔ apenas schemas e resultados das ferramentas"
+  },
+  "faq": {
+    "data": {
+      "q": "Quais dados a plataforma oferece?",
+      "a": "As estimativas trimestrais de KPI da {provider} para empresas de capital aberto: estimativas de trimestres fechados (históricas) e snapshots do trimestre corrente, atualizados no máximo uma vez por dia."
+    },
+    "answer": {
+      "q": "Como uma resposta do chat é produzida?",
+      "a": "Um modelo de linguagem chama quatro ferramentas MCP somente leitura (buscar empresas, listar KPIs, obter histórico, obter QTD). Cada chamada, com argumentos e resultado, aparece ao lado da resposta e fica guardada numa tabela de auditoria."
+    },
+    "typo": {
+      "q": "E se eu digitar errado o nome de uma empresa ou KPI?",
+      "a": "A ferramenta devolve um erro estruturado com as opções mais próximas e uma dica. O assistente tenta de novo uma vez com a sugestão e conta o que fez."
+    },
+    "clients": {
+      "q": "Posso usar pelo Claude Desktop ou pelo Cursor?",
+      "a": "Sim. O servidor MCP roda via stdio para clientes desktop e via HTTP para serviços. A página de desenvolvedores traz a configuração exata."
+    },
+    "noKey": {
+      "q": "Funciona sem uma chave de API de LLM?",
+      "a": "Sim. Um provedor stub determinístico executa o mesmo fluxo de chamadas de ferramenta, então a demo, os testes e o CI nunca precisam de chave. Configure uma chave para usar um modelo real."
+    },
+    "database": {
+      "q": "Como vocês mantêm o modelo longe do banco de dados?",
+      "a": "O modelo só vê schemas e resultados das ferramentas. As ferramentas passam por uma camada de domínio com consultas parametrizadas; a identidade vem do servidor, nunca do modelo."
+    },
+    "tenancy": {
+      "q": "É multi-tenant?",
+      "a": "Está pronto para multi-tenant: toda chamada carrega um tenant id e a trilha de auditoria o registra. Row-level security é o próximo passo documentado."
+    },
+    "selfHost": {
+      "q": "Posso rodar por conta própria?",
+      "a": "Um comando sobe Postgres, a API, o servidor MCP, o app de chat e este site com Docker Compose. Cada parte também tem sua própria imagem e pode ser publicada separadamente."
+    }
+  },
+  "platform": {
+    "eyebrow": "Plataforma",
+    "title": "Uma camada de domínio, três interfaces de protocolo",
+    "subtitle": "REST, MCP e o agente de chat são adaptadores finos sobre os mesmos serviços, então validação, sugestões e semântica de erros são definidas uma única vez.",
+    "layers": {
+      "clients": {
+        "name": "Clientes",
+        "i1": "App web de chat (React)",
+        "i2": "Claude Desktop, Cursor e outros clientes MCP",
+        "i3": "Dashboards e scripts via REST"
+      },
+      "adapters": {
+        "name": "Adaptadores",
+        "i1": "API REST: FastAPI, problem+json, rate limits",
+        "i2": "Servidor MCP: FastMCP, 4 ferramentas, middleware de auditoria",
+        "i3": "Agente de chat: loop de ferramentas protegido, streaming SSE"
+      },
+      "domain": {
+        "name": "Domínio",
+        "i1": "Uma camada de serviços compartilhada pelos dois adaptadores",
+        "i2": "Validação, sugestões e semântica de erros definidas uma vez",
+        "i3": "RequestContext carrega tenant, principal e trace id"
+      },
+      "data": {
+        "name": "Dados",
+        "i1": "Postgres 16 com índices funcionais e parciais",
+        "i2": "Ingestão idempotente das estimativas de KPI",
+        "i3": "Tabela de auditoria de chamadas; conversas persistidas"
+      }
+    },
+    "tenancy": {
+      "eyebrow": "Pronto para multi-tenant",
+      "title": "A identidade vem do servidor, nunca do modelo",
+      "i1": "A identidade vem do servidor, nunca do modelo: os schemas das ferramentas não têm campos de tenant ou usuário.",
+      "i2": "Um RequestContext acompanha toda chamada de serviço, então row-level security por tenant fica a uma coluna e uma policy de distância.",
+      "i3": "Toda linha de auditoria já guarda o tenant id e o trace id."
+    },
+    "observability": {
+      "eyebrow": "Observabilidade",
+      "title": "Rastreável de ponta a ponta",
+      "subtitle": "Logs JSON estruturados, tabela de auditoria para chamadas de ferramenta, endpoints de health e readiness, exportação OpenTelemetry opcional.",
+      "trace": {
+        "label": "trace id",
+        "detail": "do navegador até a linha de auditoria e os logs dos dois serviços"
+      },
+      "fields": {
+        "label": "campos por chamada",
+        "detail": "ferramenta, argumentos, duração, status, erro, trace id"
+      },
+      "health": {
+        "label": "endpoints de saúde",
+        "detail": "liveness e readiness com checagem de dependências"
+      }
+    }
+  },
+  "developers": {
+    "eyebrow": "Desenvolvedores",
+    "title": "Rode, conecte, consulte",
+    "subtitle": "Tudo começa com um comando e funciona sem chave de API de LLM.",
+    "quickstart": "Início rápido",
+    "mcp": {
+      "eyebrow": "MCP",
+      "title": "Conecte o Claude Desktop, o Cursor ou qualquer cliente MCP",
+      "subtitle": "stdio para clientes desktop, HTTP streamable para serviços. Toda chamada cai na mesma tabela de auditoria."
+    },
+    "tools": {
+      "eyebrow": "Ferramentas",
+      "title": "As quatro ferramentas",
+      "params": "parâmetros:",
+      "returns": "retorna:"
+    },
+    "rest": {
+      "eyebrow": "REST",
+      "title": "Os mesmos dados via HTTP",
+      "subtitle": "JSON tipado, erros problem+json com sugestões, documento OpenAPI, endpoint de chat via SSE.",
+      "cta": "Abrir a documentação da API"
+    },
+    "samples": {
+      "stdio": "Claude Desktop / Cursor (stdio)",
+      "http": "MCP remoto via HTTP",
+      "rest": "REST",
+      "envelope": "Envelope de erro (o que um agente recebe)"
+    },
+    "toolPurpose": {
+      "search_companies": "Encontra empresas por ticker, parte do nome ou setor; sem argumentos, lista tudo.",
+      "list_company_kpis": "Os KPIs que uma empresa publica, com unidades e os períodos cobertos.",
+      "get_kpi_history": "Estimativas de trimestres fechados de um KPI, do mais antigo ao mais recente.",
+      "get_kpi_qtd": "A estimativa atual do trimestre corrente e seus snapshots."
+    }
+  },
+  "security": {
+    "eyebrow": "Segurança",
+    "title": "Fronteiras entre o modelo e os dados",
+    "subtitle": "A demo não exige login, então o design foca nas fronteiras que importam para uma plataforma de agentes.",
+    "boundaries": {
+      "llm": {
+        "title": "LLM ↔ ferramentas",
+        "text": "O modelo recebe apenas schemas e resultados das ferramentas. Os argumentos que ele produz são sanitizados duas vezes: no agente e no servidor MCP."
+      },
+      "data": {
+        "title": "Ferramentas ↔ dados",
+        "text": "As ferramentas chamam uma camada de domínio que usa consultas ORM parametrizadas. Um gate no CI quebra o build se aparecer SQL puro fora das migrations."
+      },
+      "callers": {
+        "title": "Clientes ↔ serviços",
+        "text": "Rate limit por cliente, limite de tamanho de requisição, allowlist de CORS, health checks e containers sem root."
+      }
+    },
+    "failures": {
+      "eyebrow": "Modos de falha",
+      "title": "Cada modo de falha tem uma proteção e um teste",
+      "tableLabel": "Modos de falha e proteções",
+      "mode": "modo de falha",
+      "guard": "proteção",
+      "hallucination": {
+        "mode": "Ticker alucinado ou KPI digitado errado",
+        "guard": "Envelope de erro com sugestões e dica de recuperação; o prompt permite uma nova tentativa."
+      },
+      "unknownTool": {
+        "mode": "Nome de ferramenta desconhecido",
+        "guard": "Rejeitado no agente antes de qualquer chamada de rede; o modelo é informado de quais ferramentas existem."
+      },
+      "malformed": {
+        "mode": "Entrada de ferramenta malformada ou truncada",
+        "guard": "Nunca é executada; fica registrada como passo rejeitado."
+      },
+      "identity": {
+        "mode": "Contrabando de identidade (tenant_id nos argumentos)",
+        "guard": "Esse parâmetro não existe; chaves desconhecidas são descartadas e contabilizadas."
+      },
+      "loop": {
+        "mode": "Loop infinito de tentativas",
+        "guard": "Orçamento de iterações, registro de chamadas repetidas com falha e limite de tempo total."
+      },
+      "slow": {
+        "mode": "Resultados lentos ou enormes",
+        "guard": "Timeouts por chamada e truncamento do resultado com um aviso ao modelo."
+      },
+      "outage": {
+        "mode": "Recusa do modelo ou indisponibilidade do provedor",
+        "guard": "Explicado ao usuário; os passos parciais são persistidos com o trace id."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Fale com o time",
+    "subtitle": "Quer conectar seus próprios dados de KPI, fazer um deploy privado ou saber do roadmap multi-tenant?",
+    "name": "Nome",
+    "email": "E-mail corporativo",
+    "message": "O que você gostaria de fazer?",
+    "send": "Enviar",
+    "sent": "Obrigado. Este formulário de demonstração não envia nada; escreva para {email}."
+  }
+}

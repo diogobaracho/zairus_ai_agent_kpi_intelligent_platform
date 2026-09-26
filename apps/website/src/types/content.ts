@@ -25,7 +25,6 @@ export interface FaqItem {
 }
 export interface Tool {
   name: string;
-  purpose: string;
   params: string;
   returns: string;
 }

@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "tagline": "KPI estimates for public investors and the AI agents that work for them.",
+    "homeLabel": "{brand} — home",
+    "language": "Language"
+  },
+  "nav": {
+    "product": "Product",
+    "platform": "Platform",
+    "developers": "Developers",
+    "security": "Security",
+    "contact": "Contact",
+    "apiDocs": "API docs",
+    "openChat": "Open the chat",
+    "toggleMenu": "Toggle menu"
+  },
+  "footer": {
+    "product": "Product",
+    "platform": "Platform",
+    "getStarted": "Get started",
+    "howItWorks": "How it works",
+    "explainable": "Explainable answers",
+    "coverage": "Coverage",
+    "faq": "FAQ",
+    "architecture": "Architecture",
+    "mcpTools": "MCP tools",
+    "restApi": "REST API",
+    "guardrails": "Guardrails",
+    "connectClaude": "Connect Claude Desktop",
+    "tryTitle": "Try it in a minute",
+    "tryText": "Ask a question in the chat and watch the tool calls appear next to the answer.",
+    "legal": "© {year} {product}. Sample data and figures on this site are illustrative."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "For public investors and their AI agents",
+      "title": "Ask your KPI data. Get answers you can audit.",
+      "description": "{brand} turns {provider}'s quarterly KPI estimates into answers: historical trends, the current quarter-to-date estimate, and a visible record of every tool the assistant used to get there.",
+      "primaryCta": "Open the chat demo",
+      "secondaryCta": "Connect your AI client",
+      "badges": {
+        "estimates": "Historical + QTD estimates",
+        "toolCalls": "Every tool call shown",
+        "mcp": "MCP server for Claude Desktop & Cursor",
+        "local": "Runs locally in one command"
+      }
+    },
+    "trustBar": { "builtWith": "Built with", "claude": "Claude models" },
+    "howItWorks": {
+      "eyebrow": "How it works",
+      "title": "From a question to an auditable answer",
+      "subtitle": "Built for time-constrained investors: one question, one well-chosen tool call, one cited answer.",
+      "architecture": "See the architecture"
+    },
+    "steps": {
+      "ask": {
+        "title": "Ask in plain language",
+        "description": "\"How is ORBY's ARR doing this quarter?\" No tickers or KPI codes required; the assistant finds them."
+      },
+      "pick": {
+        "title": "The agent picks a tool",
+        "description": "Four read-only MCP tools cover discovery, KPI catalogues, history and quarter-to-date estimates. Wrong guesses come back with suggestions."
+      },
+      "govern": {
+        "title": "Governed data answers",
+        "description": "Tools call one domain layer over Postgres. The model never sees SQL, ids or tenants; only validated, structured results."
+      },
+      "evidence": {
+        "title": "You see the evidence",
+        "description": "The answer cites ticker, KPI, unit, period and as_of date, and the panel shows each call with arguments, status and duration."
+      }
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "Three surfaces, one source of truth",
+      "subtitle": "A REST API for products, an MCP server for AI agents and an explainable chat for people, all over the same governed data layer.",
+      "discovery": {
+        "title": "Company & KPI discovery",
+        "b1": "Search by ticker, partial name or sector",
+        "b2": "Normalised KPI metadata: slug, unit, coverage",
+        "b3": "Misspellings answered with suggestions"
+      },
+      "history": {
+        "title": "History vs quarter-to-date",
+        "b1": "Chronological completed quarters",
+        "b2": "QTD snapshots with as_of dates, kept separate",
+        "b3": "Prior-quarter comparison built in"
+      },
+      "chat": {
+        "title": "Explainable chat",
+        "b1": "Streams the answer as it forms",
+        "b2": "Tool timeline with arguments and results",
+        "b3": "Failures surfaced, never hidden"
+      },
+      "mcp": {
+        "title": "MCP server for agents",
+        "b1": "Four self-describing tools",
+        "b2": "stdio for Claude Desktop & Cursor, HTTP for services",
+        "b3": "Same audit trail for every caller"
+      },
+      "rest": {
+        "title": "REST API for products",
+        "b1": "Typed, validated JSON",
+        "b2": "Consistent problem+json errors with hints",
+        "b3": "OpenAPI document included"
+      },
+      "audit": {
+        "title": "Audit everything",
+        "b1": "One trace id from browser to database row",
+        "b2": "Tool name, arguments, duration, status, error",
+        "b3": "Reconstruct any answer afterwards"
+      }
+    },
+    "explainability": {
+      "eyebrow": "Explainability",
+      "title": "Every answer carries its evidence",
+      "subtitle": "Which tools ran, with which arguments, what came back, and how long it took. One trace id joins the chat, the API logs, the MCP logs and the audit table.",
+      "footnote": "Failures are surfaced, not hidden: a wrong ticker shows up as an error step with the suggestion the assistant used to recover."
+    },
+    "coverage": {
+      "eyebrow": "Coverage",
+      "title": "What the sample dataset holds",
+      "subtitle": "Illustrative {provider} estimates: enough to explore trends, compare quarters and test every failure mode.",
+      "companies": {
+        "label": "companies",
+        "detail": "across {sectors} sectors in the sample dataset"
+      },
+      "kpis": { "label": "KPIs", "detail": "revenue, ARR, retention, churn, GMV, users and more" },
+      "quarters": {
+        "label": "quarters of history",
+        "detail": "{from} to {to}, plus QTD snapshots"
+      },
+      "audited": {
+        "label": "tool calls audited",
+        "detail": "tool, arguments, duration, status, trace id"
+      }
+    },
+    "developers": {
+      "eyebrow": "For developers",
+      "title": "Four tools an agent understands on first read",
+      "subtitle": "Self-describing names, scalar parameters, public identifiers only, structured JSON in and out.",
+      "tool": "tool",
+      "whenToUse": "when to use",
+      "cta": "Connect Claude Desktop, Cursor or REST"
+    },
+    "guardrails": {
+      "eyebrow": "Guardrails",
+      "title": "Designed around how LLM tool calling fails",
+      "subtitle": "Hallucinated identifiers, loops, oversized results and refusals each have a named guard and a test.",
+      "database": {
+        "title": "The model never touches the database",
+        "description": "Answers come only through four typed, read-only tools. No SQL, no ids, no tenant fields in any schema."
+      },
+      "recorded": {
+        "title": "Every call is recorded",
+        "description": "A trace id follows the request from the browser to the audit row and the logs of both services."
+      },
+      "budgets": {
+        "title": "Budgets and timeouts",
+        "description": "Iteration caps, per-tool timeouts, duplicate-call detection and result size limits stop runaway loops."
+      },
+      "recover": {
+        "title": "Errors an agent can recover from",
+        "description": "Structured envelopes with suggestions and a recovery hint turn a typo into one retry, not a failure."
+      }
+    },
+    "faq": { "eyebrow": "FAQ", "title": "Questions investors and engineers ask" },
+    "finalCta": {
+      "title": "See every step behind the answer.",
+      "description": "Start the stack locally with one command, ask a question in the chat, or point Claude Desktop at the MCP server.",
+      "primary": "Open the chat demo",
+      "secondary": "Read the developer guide"
+    }
+  },
+  "mockup": {
+    "chatLabel": "Chat mockup",
+    "question": "Show ORBYY revenue history and the current quarter",
+    "answerHistory": "{from} = {first} … {to} = {last} ({count} quarters, {growth} overall).",
+    "answerQtd": "QTD {period} as of {asOf}: {value}.",
+    "answerRecovery": "I first tried ticker ORBYY, which does not exist; the tool suggested ORBY.",
+    "toolExecution": "Tool execution",
+    "calls": "{count, plural, one {# call} other {# calls}}",
+    "notFound": "company_not_found → suggestion: ORBY",
+    "historyNote": "{count} quarters, {from}..{to}",
+    "qtdNote": "{period} as of {asOf}",
+    "timelineLabel": "Trace timeline mockup",
+    "time": "time",
+    "where": "where",
+    "event": "event"
+  },
+  "architecture": {
+    "label": "Architecture: clients, adapters, domain layer, Postgres",
+    "chat": "Chat web app",
+    "desktop": "Claude Desktop / Cursor",
+    "scripts": "Dashboards & scripts",
+    "api": "API service (FastAPI)",
+    "apiSub": "REST /v1 · chat agent loop · guards · SSE · audit endpoint",
+    "mcp": "MCP server (FastMCP)",
+    "mcpSub": "4 read-only tools · rate limit · trace · audit · sanitise",
+    "core": "kpi_core — one domain layer: services · repositories · errors · RequestContext",
+    "llm": "LLM provider ↔ tool schemas & results only"
+  },
+  "faq": {
+    "data": {
+      "q": "What data does the platform serve?",
+      "a": "{provider}'s quarterly KPI estimates for public companies: completed-quarter (historical) estimates and quarter-to-date snapshots that update at most daily."
+    },
+    "answer": {
+      "q": "How is a chat answer produced?",
+      "a": "A language model calls four read-only MCP tools (search companies, list KPIs, get history, get QTD). Every call, with its arguments and result, is shown next to the answer and stored in an audit table."
+    },
+    "typo": {
+      "q": "What happens when I misspell a company or KPI?",
+      "a": "The tool returns a structured error with the closest matches and a hint. The assistant retries once with the suggestion and tells you what it did."
+    },
+    "clients": {
+      "q": "Can I use it from Claude Desktop or Cursor?",
+      "a": "Yes. The MCP server runs over stdio for desktop clients and over HTTP for services. The developer page has the exact configuration."
+    },
+    "noKey": {
+      "q": "Does it work without an LLM API key?",
+      "a": "Yes. A deterministic stub provider runs the same tool-calling flow, so the demo, tests and CI never need a key. Set a key to use a real model."
+    },
+    "database": {
+      "q": "How do you keep the model away from the database?",
+      "a": "The model only sees tool schemas and results. Tools go through one domain layer with parameterised queries; identity comes from the server, never from the model."
+    },
+    "tenancy": {
+      "q": "Is it multi-tenant?",
+      "a": "It is multi-tenant-ready: every call carries a tenant id and the audit trail records it. Row-level security is the documented next step."
+    },
+    "selfHost": {
+      "q": "Can I run it myself?",
+      "a": "One command starts Postgres, the API, the MCP server, the chat app and this site with Docker Compose. Each part also ships as its own image and can be deployed on its own."
+    }
+  },
+  "platform": {
+    "eyebrow": "Platform",
+    "title": "One domain layer, three protocol surfaces",
+    "subtitle": "REST, MCP and the chat agent are thin adapters over the same services, so validation, suggestions and error semantics are defined once.",
+    "layers": {
+      "clients": {
+        "name": "Clients",
+        "i1": "Chat web app (React)",
+        "i2": "Claude Desktop, Cursor and other MCP clients",
+        "i3": "Dashboards and scripts over REST"
+      },
+      "adapters": {
+        "name": "Adapters",
+        "i1": "REST API: FastAPI, problem+json, rate limits",
+        "i2": "MCP server: FastMCP, 4 tools, audit middleware",
+        "i3": "Chat agent: guarded tool loop, SSE streaming"
+      },
+      "domain": {
+        "name": "Domain",
+        "i1": "One service layer shared by both adapters",
+        "i2": "Validation, suggestions and error semantics defined once",
+        "i3": "RequestContext carries tenant, principal and trace id"
+      },
+      "data": {
+        "name": "Data",
+        "i1": "Postgres 16 with functional and partial indexes",
+        "i2": "Idempotent ingestion of KPI estimates",
+        "i3": "Audit table for tool calls; persisted conversations"
+      }
+    },
+    "tenancy": {
+      "eyebrow": "Multi-tenant ready",
+      "title": "Identity from the server, never from the model",
+      "i1": "Identity comes from the server, never from the model: tool schemas have no tenant or user fields.",
+      "i2": "A RequestContext travels with every service call, so per-tenant row-level security is a column and a policy away.",
+      "i3": "Every audit row already stores the tenant id and the trace id."
+    },
+    "observability": {
+      "eyebrow": "Observability",
+      "title": "Traceable end to end",
+      "subtitle": "Structured JSON logs, an audit table for tool calls, health and readiness endpoints, optional OpenTelemetry export.",
+      "trace": {
+        "label": "trace id",
+        "detail": "from the browser to the audit row and both services' logs"
+      },
+      "fields": {
+        "label": "fields per tool call",
+        "detail": "tool, arguments, duration, status, error, trace id"
+      },
+      "health": {
+        "label": "health endpoints",
+        "detail": "liveness and readiness with dependency checks"
+      }
+    }
+  },
+  "developers": {
+    "eyebrow": "Developers",
+    "title": "Run it, connect it, query it",
+    "subtitle": "Everything starts with one command and works without an LLM API key.",
+    "quickstart": "Quickstart",
+    "mcp": {
+      "eyebrow": "MCP",
+      "title": "Connect Claude Desktop, Cursor or any MCP client",
+      "subtitle": "stdio for desktop clients, streamable HTTP for services. Every call lands in the same audit table."
+    },
+    "tools": {
+      "eyebrow": "Tools",
+      "title": "The four tools",
+      "params": "params:",
+      "returns": "returns:"
+    },
+    "rest": {
+      "eyebrow": "REST",
+      "title": "The same data over HTTP",
+      "subtitle": "Typed JSON, problem+json errors with suggestions, OpenAPI document, SSE chat endpoint.",
+      "cta": "Open the API docs"
+    },
+    "samples": {
+      "stdio": "Claude Desktop / Cursor (stdio)",
+      "http": "Remote MCP over HTTP",
+      "rest": "REST",
+      "envelope": "Error envelope (what an agent sees)"
+    },
+    "toolPurpose": {
+      "search_companies": "Find companies by ticker, partial name or sector; call with no arguments to list everything.",
+      "list_company_kpis": "The KPIs a company publishes, with units and the periods covered.",
+      "get_kpi_history": "Completed-quarter estimates for one KPI, oldest first.",
+      "get_kpi_qtd": "The current quarter-to-date estimate and its snapshots."
+    }
+  },
+  "security": {
+    "eyebrow": "Security",
+    "title": "Boundaries between the model and the data",
+    "subtitle": "No login is needed for the demo, so the design focuses on the boundaries that matter for an agent platform.",
+    "boundaries": {
+      "llm": {
+        "title": "LLM ↔ tools",
+        "text": "The model receives tool schemas and tool results only. Arguments it produces are sanitised twice: in the agent and in the MCP server."
+      },
+      "data": {
+        "title": "Tools ↔ data",
+        "text": "Tools call one domain layer that uses parameterised ORM queries. A CI gate fails the build if raw SQL appears outside migrations."
+      },
+      "callers": {
+        "title": "Callers ↔ services",
+        "text": "Per-client rate limits, request body caps, CORS allowlists, health checks and non-root containers."
+      }
+    },
+    "failures": {
+      "eyebrow": "Failure modes",
+      "title": "Each failure mode has a guard and a test",
+      "tableLabel": "Failure modes and guards",
+      "mode": "failure mode",
+      "guard": "guard",
+      "hallucination": {
+        "mode": "Hallucinated ticker or misspelled KPI",
+        "guard": "Error envelope with suggestions and a recovery hint; the prompt allows one retry."
+      },
+      "unknownTool": {
+        "mode": "Unknown tool name",
+        "guard": "Rejected in the agent before any network call; the model is told which tools exist."
+      },
+      "malformed": {
+        "mode": "Malformed or truncated tool input",
+        "guard": "Never executed; recorded as a rejected step."
+      },
+      "identity": {
+        "mode": "Identity smuggling (tenant_id in arguments)",
+        "guard": "No such parameter exists; unknown keys are dropped and counted."
+      },
+      "loop": {
+        "mode": "Infinite retry loop",
+        "guard": "Iteration budget, duplicate-failing-call ledger and a wall-clock limit."
+      },
+      "slow": {
+        "mode": "Slow or huge tool results",
+        "guard": "Per-call timeouts and result truncation with a note to the model."
+      },
+      "outage": {
+        "mode": "Model refusal or provider outage",
+        "guard": "Explained to the user; partial steps are persisted with the trace id."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Talk to the team",
+    "subtitle": "Interested in connecting your own KPI data, a private deployment or the multi-tenant roadmap?",
+    "name": "Name",
+    "email": "Work email",
+    "message": "What would you like to do?",
+    "send": "Send",
+    "sent": "Thanks. This demo form does not send anything; write to {email}."
+  }
+}

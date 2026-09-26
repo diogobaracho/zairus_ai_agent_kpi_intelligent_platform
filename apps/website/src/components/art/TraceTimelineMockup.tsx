@@ -1,3 +1,5 @@
+import { useT } from '../../i18n/useT';
+
 const rows = [
   { at: '18:02:11.412', where: 'browser', what: 'POST /v1/chat', trace: '9f1c2ab4d0e3f5a7' },
   {
@@ -27,17 +29,18 @@ const rows = [
 ];
 
 export default function TraceTimelineMockup() {
+  const t = useT();
   return (
     <div
-      className="overflow-hidden rounded-2xl border border-line bg-white shadow-card"
-      aria-label="Trace timeline mockup"
+      className="overflow-x-auto rounded-2xl border border-line bg-white shadow-card"
+      aria-label={t('mockup.timelineLabel')}
     >
       <table className="w-full text-xs">
         <thead className="bg-paper text-left text-ink-soft">
           <tr>
-            <th className="p-2">time</th>
-            <th className="p-2">where</th>
-            <th className="p-2">event</th>
+            <th className="p-2">{t('mockup.time')}</th>
+            <th className="p-2">{t('mockup.where')}</th>
+            <th className="p-2">{t('mockup.event')}</th>
             <th className="p-2">trace_id</th>
           </tr>
         </thead>

@@ -7,182 +7,84 @@ import {
   ShieldCheck,
   Timer,
   Waypoints,
+  type LucideIcon,
 } from 'lucide-react';
-import { brand } from '../brand';
-import type { Capability, Guardrail, Metric, Step, TraceStep } from '../types/content';
+import type { TraceStep } from '../types/content';
 
-export const hero = {
-  eyebrow: 'For public investors and their AI agents',
-  title: 'Ask your KPI data. Get answers you can audit.',
-  description: `${brand.brand} turns ${brand.dataProvider}'s quarterly KPI estimates into answers: historical trends, the current quarter-to-date estimate, and a visible record of every tool the assistant used to get there.`,
-  primaryCta: 'Open the chat demo',
-  secondaryCta: 'Connect your AI client',
-  badges: [
-    'Historical + QTD estimates',
-    'Every tool call shown',
-    'MCP server for Claude Desktop & Cursor',
-    'Runs locally in one command',
-  ],
+// Copy lives in src/i18n/messages/*.json; these lists only hold ids, icons and numbers.
+
+export const heroBadges = ['estimates', 'toolCalls', 'mcp', 'local'] as const;
+
+export const steps = [
+  { number: '01', id: 'ask' },
+  { number: '02', id: 'pick' },
+  { number: '03', id: 'govern' },
+  { number: '04', id: 'evidence' },
+] as const;
+
+export const capabilities: { id: string; icon: LucideIcon }[] = [
+  { id: 'discovery', icon: FileSearch },
+  { id: 'history', icon: Activity },
+  { id: 'chat', icon: Bot },
+  { id: 'mcp', icon: Waypoints },
+  { id: 'rest', icon: Database },
+  { id: 'audit', icon: Eye },
+];
+export const capabilityBullets = ['b1', 'b2', 'b3'] as const;
+
+/** Facts about data/kpi_sample.csv (regenerate with scripts/generate_sample_data.py). */
+export const dataset = {
+  companies: 16,
+  sectors: 14,
+  kpis: 13,
+  quarters: 14,
+  firstQuarter: '2023Q1',
+  lastQuarter: '2026Q2',
+  qtdQuarter: '2026Q3',
+  qtdAsOf: '2026-09-15',
 };
 
-export const steps: Step[] = [
+export const metrics = [
+  { id: 'companies', value: String(dataset.companies), values: { sectors: dataset.sectors } },
+  { id: 'kpis', value: String(dataset.kpis), values: {} },
   {
-    number: '01',
-    title: 'Ask in plain language',
-    description:
-      '"What\'s ORBY\'s ARR doing this quarter?" No tickers or KPI codes required; the assistant finds them.',
+    id: 'quarters',
+    value: String(dataset.quarters),
+    values: { from: dataset.firstQuarter, to: dataset.lastQuarter },
   },
-  {
-    number: '02',
-    title: 'The agent picks a tool',
-    description:
-      'Four read-only MCP tools cover discovery, KPI catalogues, history and quarter-to-date estimates. Wrong guesses come back with suggestions.',
-  },
-  {
-    number: '03',
-    title: 'Governed data answers',
-    description:
-      'Tools call one domain layer over Postgres. The model never sees SQL, ids or tenants; only validated, structured results.',
-  },
-  {
-    number: '04',
-    title: 'You see the evidence',
-    description:
-      'The answer cites ticker, KPI, unit, period and as_of date, and the panel shows each call with arguments, status and duration.',
-  },
-];
+  { id: 'audited', value: '100%', values: {} },
+] as const;
 
-export const capabilities: Capability[] = [
-  {
-    icon: FileSearch,
-    title: 'Company & KPI discovery',
-    bullets: [
-      'Search by ticker, partial name or sector',
-      'Normalised KPI metadata: slug, unit, coverage',
-      'Misspellings answered with suggestions',
-    ],
-  },
-  {
-    icon: Activity,
-    title: 'History vs quarter-to-date',
-    bullets: [
-      'Chronological completed quarters',
-      'QTD snapshots with as_of dates, kept separate',
-      'Prior-quarter comparison built in',
-    ],
-  },
-  {
-    icon: Bot,
-    title: 'Explainable chat',
-    bullets: [
-      'Streams the answer as it forms',
-      'Tool timeline with arguments and results',
-      'Failures surfaced, never hidden',
-    ],
-  },
-  {
-    icon: Waypoints,
-    title: 'MCP server for agents',
-    bullets: [
-      'Four self-describing tools',
-      'stdio for Claude Desktop & Cursor, HTTP for services',
-      'Same audit trail for every caller',
-    ],
-  },
-  {
-    icon: Database,
-    title: 'REST API for products',
-    bullets: [
-      'Typed, validated JSON',
-      'Consistent problem+json errors with hints',
-      'OpenAPI document included',
-    ],
-  },
-  {
-    icon: Eye,
-    title: 'Audit everything',
-    bullets: [
-      'One trace id from browser to database row',
-      'Tool name, arguments, duration, status, error',
-      'Reconstruct any answer afterwards',
-    ],
-  },
-];
-
-export const metrics: Metric[] = [
-  { value: '16', label: 'companies', detail: 'across 14 sectors in the sample dataset' },
-  {
-    value: '13',
-    label: 'KPIs',
-    detail: 'revenue, ARR, retention, churn, GMV, users and more',
-  },
-  {
-    value: '14',
-    label: 'quarters of history',
-    detail: '2023Q1 to 2026Q2, plus QTD snapshots',
-  },
-  {
-    value: '100%',
-    label: 'tool calls audited',
-    detail: 'tool, arguments, duration, status, trace id',
-  },
-];
-
-export const trace: TraceStep[] = [
+/** Tool timeline shown in the hero mockup; `note` is a message id plus its values. */
+export const trace: (TraceStep & { values?: Record<string, string | number> })[] = [
   {
     tool: 'get_kpi_history',
     args: 'ticker=ORBYY kpi=revenue',
     status: 'error',
     ms: 4,
-    note: 'company_not_found → suggestion: ORBY',
+    note: 'mockup.notFound',
   },
   {
     tool: 'get_kpi_history',
     args: 'ticker=ORBY kpi=total_revenue',
     status: 'ok',
     ms: 31,
-    note: '14 quarters, 2023Q1..2026Q2',
+    note: 'mockup.historyNote',
+    values: { count: dataset.quarters, from: dataset.firstQuarter, to: dataset.lastQuarter },
   },
   {
     tool: 'get_kpi_qtd',
     args: 'ticker=ORBY kpi=total_revenue',
     status: 'ok',
     ms: 12,
-    note: '2026Q3 as of 2026-09-15',
+    note: 'mockup.qtdNote',
+    values: { period: dataset.qtdQuarter, asOf: dataset.qtdAsOf },
   },
 ];
 
-export const guardrails: Guardrail[] = [
-  {
-    icon: ShieldCheck,
-    title: 'The model never touches the database',
-    description:
-      'Answers come only through four typed, read-only tools. No SQL, no ids, no tenant fields in any schema.',
-  },
-  {
-    icon: Eye,
-    title: 'Every call is recorded',
-    description:
-      'A trace id follows the request from the browser to the audit row and the logs of both services.',
-  },
-  {
-    icon: Timer,
-    title: 'Budgets and timeouts',
-    description:
-      'Iteration caps, per-tool timeouts, duplicate-call detection and result size limits stop runaway loops.',
-  },
-  {
-    icon: Bot,
-    title: 'Errors an agent can recover from',
-    description:
-      'Structured envelopes with suggestions and a recovery hint turn a typo into one retry, not a failure.',
-  },
+export const guardrails: { id: string; icon: LucideIcon }[] = [
+  { id: 'database', icon: ShieldCheck },
+  { id: 'recorded', icon: Eye },
+  { id: 'budgets', icon: Timer },
+  { id: 'recover', icon: Bot },
 ];
-
-export const finalCta = {
-  title: 'See every step behind the answer.',
-  description:
-    'Start the stack locally with one command, ask a question in the chat, or point Claude Desktop at the MCP server.',
-  primary: 'Open the chat demo',
-  secondary: 'Read the developer guide',
-};

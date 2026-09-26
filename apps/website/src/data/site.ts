@@ -5,48 +5,47 @@ export const site = {
   brand: brand.brand,
   product: brand.product,
   provider: brand.dataProvider,
-  tagline: 'KPI estimates for public investors and the AI agents that work for them.',
   chatUrl: brand.chatUrl,
   apiDocsUrl: brand.apiDocsUrl,
-  repoDocsUrl: '/developers',
   contact: brand.contact,
   year: new Date().getFullYear(),
 };
 
+// `label` is a message id (see src/i18n/messages).
 export const nav: NavItem[] = [
-  { label: 'Product', to: '/' },
-  { label: 'Platform', to: '/platform' },
-  { label: 'Developers', to: '/developers' },
-  { label: 'Security', to: '/security' },
-  { label: 'Contact', to: '/contact' },
+  { label: 'nav.product', to: '/' },
+  { label: 'nav.platform', to: '/platform' },
+  { label: 'nav.developers', to: '/developers' },
+  { label: 'nav.security', to: '/security' },
+  { label: 'nav.contact', to: '/contact' },
 ];
 
 export const footerColumns: { title: string; links: NavItem[] }[] = [
   {
-    title: 'Product',
+    title: 'footer.product',
     links: [
-      { label: 'How it works', to: '/#how-it-works' },
-      { label: 'Explainable answers', to: '/#explainability' },
-      { label: 'Coverage', to: '/#coverage' },
-      { label: 'FAQ', to: '/#faq' },
+      { label: 'footer.howItWorks', to: '/#how-it-works' },
+      { label: 'footer.explainable', to: '/#explainability' },
+      { label: 'footer.coverage', to: '/#coverage' },
+      { label: 'footer.faq', to: '/#faq' },
     ],
   },
   {
-    title: 'Platform',
+    title: 'footer.platform',
     links: [
-      { label: 'Architecture', to: '/platform' },
-      { label: 'MCP tools', to: '/developers#tools' },
-      { label: 'REST API', to: '/developers#rest' },
-      { label: 'Guardrails', to: '/security' },
+      { label: 'footer.architecture', to: '/platform' },
+      { label: 'footer.mcpTools', to: '/developers#tools' },
+      { label: 'footer.restApi', to: '/developers#rest' },
+      { label: 'footer.guardrails', to: '/security' },
     ],
   },
   {
-    title: 'Get started',
+    title: 'footer.getStarted',
     links: [
-      ...(hasChat ? [{ label: 'Open the chat', to: site.chatUrl }] : []),
-      ...(hasApiDocs ? [{ label: 'API docs', to: site.apiDocsUrl }] : []),
-      { label: 'Connect Claude Desktop', to: '/developers#connect' },
-      { label: 'Contact', to: '/contact' },
+      ...(hasChat ? [{ label: 'nav.openChat', to: site.chatUrl }] : []),
+      ...(hasApiDocs ? [{ label: 'nav.apiDocs', to: site.apiDocsUrl }] : []),
+      { label: 'footer.connectClaude', to: '/developers#connect' },
+      { label: 'nav.contact', to: '/contact' },
     ],
   },
 ];

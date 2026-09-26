@@ -6,8 +6,8 @@ registry in `kustomization.yaml` and creating the `kpi-secrets` Secret (see `sec
 ```bash
 kubectl apply --dry-run=client -k infra/k8s      # validate
 kubectl apply -k infra/k8s                        # deploy
-kubectl -n zairus wait --for=condition=complete job/kpi-migrate --timeout=300s
-kubectl -n zairus get pods
+kubectl -n kpi-platform wait --for=condition=complete job/kpi-migrate --timeout=300s
+kubectl -n kpi-platform get pods
 ```
 
 Rollout order is enforced by readiness: `api`'s `/readyz` checks the database and the MCP

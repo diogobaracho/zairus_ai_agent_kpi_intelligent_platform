@@ -19,7 +19,7 @@ spec:
       securityContext: { runAsNonRoot: true }
       containers:
         - name: website
-          image: zairus-website
+          image: kpi-website
           ports: [{ containerPort: 8080 }]
           envFrom:
             - configMapRef: { name: kpi-config }

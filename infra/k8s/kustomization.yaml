@@ -2,7 +2,7 @@
 # and provide the Secret from your platform's secret store (see secret.example.yaml).
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: zairus
+namespace: kpi-platform
 resources:
   - namespace.yaml
   - configmap.yaml
@@ -14,18 +14,18 @@ resources:
   - website.yaml
   - ingress.yaml
 images:
-  - name: zairus-api
-    newName: ghcr.io/example/zairus-api
+  - name: kpi-api
+    newName: ghcr.io/example/kpi-api
     newTag: "0.1.0"
-  - name: zairus-mcp
-    newName: ghcr.io/example/zairus-mcp
+  - name: kpi-mcp
+    newName: ghcr.io/example/kpi-mcp
     newTag: "0.1.0"
-  - name: zairus-migrate
-    newName: ghcr.io/example/zairus-migrate
+  - name: kpi-migrate
+    newName: ghcr.io/example/kpi-migrate
     newTag: "0.1.0"
-  - name: zairus-chat-web
-    newName: ghcr.io/example/zairus-chat-web
+  - name: kpi-chat-web
+    newName: ghcr.io/example/kpi-chat-web
     newTag: "0.1.0"
-  - name: zairus-website
-    newName: ghcr.io/example/zairus-website
+  - name: kpi-website
+    newName: ghcr.io/example/kpi-website
     newTag: "0.1.0"

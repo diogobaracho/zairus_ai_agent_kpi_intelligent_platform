@@ -1,5 +1,8 @@
-# Zairus KPI Intelligent Platform — local stack. `make up` builds and starts everything.
-# Services are independent images; see docs/how-to/deploy-provider-agnostic.md.
+# Local stack. Every part is its own image and its own compose profile, so it can run alone:
+#   docker compose --profile backend up -d     # postgres + migrate + mcp + api
+#   docker compose --profile website up -d     # static marketing site only, no backend needed
+#   docker compose --profile backend --profile chat up -d
+# `make up` starts all profiles. See docs/how-to/deploy.md.
 
 x-kpi-env: &kpi-env
   KPI_ENV: ${KPI_ENV:-local}
@@ -9,6 +12,7 @@ x-kpi-env: &kpi-env
 
 services:
   postgres:
+    profiles: [backend]
     image: postgres:16-alpine
     environment:
       POSTGRES_USER: kpi
@@ -23,12 +27,16 @@ services:
       retries: 10
 
   migrate:
+    profiles: [backend]
     build: { context: ., dockerfile: infra/docker/migrate/Dockerfile }
-    environment: *kpi-env
+    environment:
+      <<: *kpi-env
+      KPI_SEED_DEMO: ${KPI_SEED_DEMO:-false}
     depends_on:
       postgres: { condition: service_healthy }
 
   mcp:
+    profiles: [backend]
     build: { context: ., dockerfile: infra/docker/mcp/Dockerfile }
     environment:
       <<: *kpi-env
@@ -40,6 +48,7 @@ services:
       migrate: { condition: service_completed_successfully }
 
   api:
+    profiles: [backend]
     build: { context: ., dockerfile: infra/docker/api/Dockerfile }
     environment:
       <<: *kpi-env
@@ -55,12 +64,20 @@ services:
       mcp: { condition: service_healthy }
 
   chat-web:
+    profiles: [chat]
     build: { context: ., dockerfile: infra/docker/chat-web/Dockerfile }
+    environment:
+      API_UPSTREAM: ${API_UPSTREAM:-http://api:8080}
     ports: ["3000:8080"]
-    depends_on: [api]
 
   website:
-    build: { context: ., dockerfile: infra/docker/website/Dockerfile }
+    profiles: [website]
+    build:
+      context: .
+      dockerfile: infra/docker/website/Dockerfile
+      args:
+        VITE_CHAT_URL: ${WEBSITE_CHAT_URL-http://localhost:3000}
+        VITE_API_DOCS_URL: ${WEBSITE_API_DOCS_URL-http://localhost:8080/docs}
     ports: ["3001:8080"]
 
 volumes:

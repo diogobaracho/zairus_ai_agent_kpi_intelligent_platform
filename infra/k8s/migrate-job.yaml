@@ -13,7 +13,7 @@ spec:
       securityContext: { runAsNonRoot: true }
       containers:
         - name: migrate
-          image: zairus-migrate
+          image: kpi-migrate
           envFrom:
             - configMapRef: { name: kpi-config }
             - secretRef: { name: kpi-secrets }

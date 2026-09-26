@@ -19,7 +19,7 @@ spec:
       securityContext: { runAsNonRoot: true }
       containers:
         - name: chat-web
-          image: zairus-chat-web
+          image: kpi-chat-web
           ports: [{ containerPort: 8080 }]
           envFrom:
             - configMapRef: { name: kpi-config }

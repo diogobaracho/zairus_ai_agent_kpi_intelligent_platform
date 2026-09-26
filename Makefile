@@ -1,4 +1,4 @@
-# Zairus KPI Intelligent Platform — single entry point. `make help` lists targets.
+# KPI Intelligent Platform — single entry point. `make help` lists targets.
 .DEFAULT_GOAL := help
 SHELL := /bin/bash
 .ONESHELL:
@@ -7,6 +7,7 @@ SHELL := /bin/bash
 UV      ?= uv
 PNPM    ?= corepack pnpm
 COMPOSE ?= docker compose
+ALL_PROFILES := --profile backend --profile chat --profile website
 PY_UNIT_MARK := "not integration and not e2e and not live"
 
 ##@ General
@@ -26,22 +27,34 @@ bootstrap: ## Install Python and JS workspaces
 	@$(MAKE) --no-print-directory doctor
 
 ##@ Stack (Docker Compose)
-up: ## Start postgres, migrate+seed, api, mcp, chat-web, website
-	$(COMPOSE) up -d --build
-	@bash scripts/wait_for_http.sh http://localhost:8080/readyz 90 || ($(COMPOSE) logs api migrate; exit 1)
+up: ## Start everything: postgres, migrate+seed, api, mcp, chat-web, website
+	$(COMPOSE) $(ALL_PROFILES) up -d --build
+	@bash scripts/wait_for_http.sh http://localhost:8080/readyz 90 || ($(COMPOSE) $(ALL_PROFILES) logs api migrate; exit 1)
 	@echo "chat-web: http://localhost:3000  website: http://localhost:3001  api: http://localhost:8080/docs  mcp: http://localhost:8090/mcp"
 
+up-backend: ## Start only postgres, migrate+seed, mcp and api
+	$(COMPOSE) --profile backend up -d --build
+	@bash scripts/wait_for_http.sh http://localhost:8080/readyz 90 || ($(COMPOSE) --profile backend logs api migrate; exit 1)
+
+up-chat: ## Start the backend plus the chat web app
+	$(COMPOSE) --profile backend --profile chat up -d --build
+
+up-website: ## Start only the marketing website (no backend needed)
+	$(COMPOSE) --profile website up -d --build
+	@bash scripts/wait_for_http.sh http://localhost:3001/ 60
+	@echo "website: http://localhost:3001"
+
 down: ## Stop the stack
-	$(COMPOSE) down
+	$(COMPOSE) $(ALL_PROFILES) down
 
 down-v: ## Stop the stack and delete volumes
-	$(COMPOSE) down -v
+	$(COMPOSE) $(ALL_PROFILES) down -v
 
 logs: ## Tail stack logs
-	$(COMPOSE) logs -f --tail=100
+	$(COMPOSE) $(ALL_PROFILES) logs -f --tail=100
 
 ps: ## Show stack status
-	$(COMPOSE) ps
+	$(COMPOSE) $(ALL_PROFILES) ps
 
 ##@ Database
 migrate: ## Run Alembic migrations against KPI_DATABASE_URL
@@ -95,8 +108,11 @@ test: ## Fast suite: Python unit tests with coverage gate + JS unit tests
 test-integration: ## Postgres-backed tests (testcontainers or KPI_TEST_DATABASE_URL)
 	$(UV) run pytest -m integration
 
+sample-data: ## Regenerate the synthetic CSVs in data/ (deterministic)
+	python3 scripts/generate_sample_data.py
+
 test-e2e: ## Playwright + smoke against the compose stack (stub LLM)
-	$(COMPOSE) up -d --build
+	$(COMPOSE) $(ALL_PROFILES) up -d --build
 	@bash scripts/wait_for_http.sh http://localhost:8080/readyz 120
 	$(PNPM) --filter e2e test:e2e
 	$(UV) run pytest -m e2e
@@ -104,9 +120,10 @@ test-e2e: ## Playwright + smoke against the compose stack (stub LLM)
 perf-smoke: ## P95 latency check against the running stack
 	$(UV) run python scripts/perf_smoke.py
 
-docs-check: ## Doc links, raw-SQL gate, tool-doc drift
+docs-check: ## Doc links, raw-SQL gate, hard-coded brand check, sample-data drift, tool-doc drift
 	python3 scripts/check_doc_links.py
 	python3 scripts/audit_docs.py
+	python3 scripts/generate_sample_data.py --check
 	@test -f scripts/check_tool_docs.py && $(UV) run python scripts/check_tool_docs.py || true
 
 tool-docs: ## Regenerate docs/reference/mcp-tools.json from the server
@@ -118,4 +135,4 @@ clean: ## Remove caches and build artifacts
 	rm -rf .pytest_cache .mypy_cache .ruff_cache .coverage htmlcov dist
 	find . -name __pycache__ -type d -prune -exec rm -rf {} +
 
-.PHONY: help doctor bootstrap up down down-v logs ps migrate seed seed-demo api mcp-http mcp-stdio web website demo-chat lint format typecheck test test-integration test-e2e perf-smoke docs-check tool-docs ci clean
+.PHONY: help doctor bootstrap up up-backend up-chat up-website sample-data down down-v logs ps migrate seed seed-demo api mcp-http mcp-stdio web website demo-chat lint format typecheck test test-integration test-e2e perf-smoke docs-check tool-docs ci clean

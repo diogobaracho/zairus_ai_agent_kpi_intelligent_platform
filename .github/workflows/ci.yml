@@ -20,6 +20,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: python3 scripts/check_doc_links.py
       - run: python3 scripts/audit_docs.py
+      - run: python3 scripts/generate_sample_data.py --check
 
   python:
     name: Python lint, types, unit tests
@@ -83,7 +84,7 @@ jobs:
         with: { node-version: "24.21.0" }
       - run: corepack enable && pnpm install --frozen-lockfile
       - run: pnpm --filter e2e exec playwright install --with-deps chromium
-      - run: docker compose up -d --build
+      - run: docker compose --profile backend --profile chat --profile website up -d --build
       - run: bash scripts/wait_for_http.sh http://localhost:8080/readyz 180
       - uses: astral-sh/setup-uv@v5
         with: { enable-cache: true }
@@ -93,11 +94,22 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: failure()
         with: { name: playwright-report, path: tests/e2e/playwright-report }
-      - run: docker compose logs --no-color > compose.log || true
+      - run: docker compose --profile backend --profile chat --profile website logs --no-color > compose.log || true
         if: always()
       - uses: actions/upload-artifact@v4
         if: always()
         with: { name: compose-logs, path: compose.log }
+
+  website-standalone:
+    name: Website deploys on its own
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # No backend, no chat: the site must build and serve with the chat links switched off.
+      - run: WEBSITE_CHAT_URL= WEBSITE_API_DOCS_URL= docker compose --profile website up -d --build
+      - run: bash scripts/wait_for_http.sh http://localhost:3001/ 120
+      - run: curl -fsS http://localhost:3001/robots.txt && curl -fsS http://localhost:3001/platform | grep -q '<div id="root">'
+      - run: test "$(docker compose ps --services --status running)" = "website"
 
   secrets:
     name: Secret scan
@@ -111,6 +123,6 @@ jobs:
   ci:
     name: CI
     runs-on: ubuntu-latest
-    needs: [governance, python, python-integration, typescript, e2e, secrets]
+    needs: [governance, python, python-integration, typescript, e2e, website-standalone, secrets]
     steps:
       - run: echo "All required checks passed."

@@ -11,9 +11,9 @@ export default function Hero() {
   return (
     <section className="grain">
       <div className="container-site grid items-center gap-10 py-16 md:py-24 lg:grid-cols-2">
-        <div className="animate-rise">
+        <div className="animate-rise min-w-0">
           <span className="eyebrow mb-5">{t('home.hero.eyebrow')}</span>
-          <h1 className="text-4xl font-bold leading-tight md:text-5xl lg:text-[56px] lg:leading-[1.1]">
+          <h1 className="break-words text-4xl font-bold leading-tight md:text-5xl lg:text-[56px] lg:leading-[1.1]">
             {t('home.hero.title')}
           </h1>
           <p className="mt-6 max-w-xl text-lg text-ink-soft">{t('home.hero.description')}</p>

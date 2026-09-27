@@ -13,3 +13,4 @@ data:
   KPI_RATE_LIMIT_RPS: "5"
   KPI_RATE_LIMIT_BURST: "20"
   OTEL_SDK_DISABLED: "true"
+  API_UPSTREAM: http://api.kpi-platform.svc.cluster.local:8080   # chat-web nginx -> API

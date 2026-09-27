@@ -13,7 +13,7 @@ RUN pnpm --filter chat-web build
 
 FROM nginxinc/nginx-unprivileged:1.27-alpine AS runtime
 COPY infra/docker/chat-web/nginx.conf /etc/nginx/templates/default.conf.template
-ENV API_UPSTREAM=http://api:8080
+ENV API_UPSTREAM=http://api:8080 NGINX_ENTRYPOINT_LOCAL_RESOLVERS=1
 COPY --from=builder /app/apps/chat-web/dist /usr/share/nginx/html
 EXPOSE 8080
 HEALTHCHECK --interval=15s --timeout=3s --retries=3 CMD wget -qO- http://127.0.0.1:8080/ >/dev/null || exit 1
